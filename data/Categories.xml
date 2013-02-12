@@ -1,0 +1,285 @@
+﻿<?xml version="1.0"?>
+<categories>
+<category id="baseball" title="Baseball">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/baseball"/>
+</provider-mappings>
+<topics>
+<topic title="Texas Rangers"></topic>
+<topic title="Bert Blyleven"></topic>
+<topic title="Roberto Alomar"></topic>
+<topic title="Vernon Wells"></topic>
+<topic title="Justin Verlander"></topic>
+</topics>
+</category>
+<category id="baskettball" title="Basket Ball">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/basketball"/>
+</provider-mappings>
+<topics>
+<topic title="Rashard Lewis"></topic>
+<topic title="Ray Allen"></topic>
+<topic title="Derrick Rose"></topic>
+<topic title="Jason Terry"></topic>
+<topic title="Super Bowl"></topic>
+<topic title="Dallas Mavericks"></topic>
+</topics>
+</category>
+<category id="business" title="Business">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/business"/>
+</provider-mappings>
+<topics>
+<topic title="Apple"></topic>
+<topic title="Facebook"></topic>
+<topic title="Google"></topic>
+<topic title="Microsoft"></topic>
+<topic title="Nokia"></topic>
+<topic title="Twitter"></topic>
+<topic title="Yahoo"></topic>
+</topics>
+</category>
+<category id="entertainment" title="Entertainment">
+<provider-mappings>
+<provider-mapping id="YouTube" category="Entertainment"/>
+</provider-mappings>
+<topics>
+<topic title="Pretty Little Liars"></topic>
+<topic title="Two and a Half Men"></topic>
+<topic title="People Choice Awards"></topic>
+<topic title="Golden Globes Awards"></topic>
+<topic title="The Craiglist Killer"></topic>
+</topics>
+</category>
+<category id="events" title="Events">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/conferences"/>
+<provider-mapping id="Freebase" category="/event"/>
+</provider-mappings>
+<topics>
+<topic title="Vancouver 2010"></topic>
+<topic title="World Cup"></topic>
+</topics>
+</category>
+<category id="footbal" title="Football">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/american_football"/>
+</provider-mappings>
+<topics>
+<topic title="Dallas"></topic>
+<topic title="Green and Yellow"></topic>
+<topic title="Superbowl MMXI"></topic>
+</topics>
+</category>
+<category id="movies" title="Movies">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/film"/>
+<provider-mapping id="YouTube" category="Film"/>
+<provider-mapping id="YouTube" category="Movies_Anime_animation"/>
+<provider-mapping id="YouTube" category="Movies"/>
+<provider-mapping id="YouTube" category="Movies_Comedy"/>
+<provider-mapping id="YouTube" category="Movies_Documentary"/>
+<provider-mapping id="YouTube" category="Movies_Action_adventure"/>
+<provider-mapping id="YouTube" category="Movies_Classics"/>
+<provider-mapping id="YouTube" category="Movies_Foreign"/>
+<provider-mapping id="YouTube" category="Movies_Horror"/>
+<provider-mapping id="YouTube" category="Movies_Drama"/>
+<provider-mapping id="YouTube" category="Movies_Family"/>
+<provider-mapping id="YouTube" category="Movies_Shorts"/>
+<provider-mapping id="YouTube" category="Movies_Sci_fi_fantasy"/>
+<provider-mapping id="YouTube" category="Movies_Thriller"/>
+<provider-mapping id="YouTube" category="Shortmov"/>
+<provider-mapping id="YouTube" category="Trailers"/>                               
+</provider-mappings>
+<topics>
+<topic title="Thor"></topic>
+<topic title="The Dark Knight Rises"></topic>
+<topic title="X-Men: First Class"></topic>
+<topic title="Fast Five"></topic>
+<topic title="Green Hornet"></topic>
+<topic title="Tintin"></topic>
+</topics>
+</category>
+<category id="music" title="Music">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/music"/>
+<provider-mapping id="YouTube" category="Music"/>
+</provider-mappings>
+<topics>
+  <topic title="Rebecca Black"></topic>
+<topic title="Justin Bieber"></topic>
+<topic title="Ke$ha"></topic>
+<topic title="Lady Gaga"></topic>
+<topic title="Owl City"></topic>
+<topic title="Femme Fatale"></topic>
+<topic title="Nate Dogg"></topic>
+<topic title="Gil Scott-Heron"></topic>
+</topics>
+</category>
+<category id="news" title="News">
+<provider-mappings>
+<provider-mapping id="YouTube" category="News"/>
+</provider-mappings>
+<topics>
+<topic title="Haiti Earthquake"></topic>
+</topics>
+</category>
+<category id="people" title="People">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/celebrities"/>
+<provider-mapping id="Freebase" category="/people"/>
+<provider-mapping id="YouTube" category="People"/>
+<provider-mapping id="YouTube" category="VideoBlog"/>
+</provider-mappings>
+<topics>
+<topic title="Pippa Middleton"></topic>
+<topic title="Elizabeth Taylor"></topic>
+<topic title="Mila Kunis"></topic>
+<topic title="Anne Hathaway"></topic>
+<topic title="Raven Symone"></topic>
+<topic title="Natalie Portman"></topic>
+<topic title="Elisabeth Sladen"></topic>
+<topic title="Jennifer Lopez"></topic>
+<topic title="Nina Dobrev"></topic>
+<topic title="Emma Watson"></topic>
+</topics>
+</category>
+<category id="places" title="Places">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/location"/>
+</provider-mappings>
+<topics>
+<topic title="Barcelona"></topic>
+<topic title="London"></topic>
+<topic title="Paris"></topic>
+<topic title="San Francisco"></topic>
+<topic title="Vancouver"></topic>
+</topics>
+</category>
+<category id="politics" title="Politics">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/government"/>
+<provider-mapping id="YouTube" category="News"/>
+</provider-mappings>
+<topics>
+<topic title="Obama"></topic>
+</topics>
+</category>
+<category id="shows" title="Shows">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/tv"/>
+<provider-mapping id="YouTube" category="Shows"/>
+</provider-mappings>
+<topics>
+<topic title="American Idol"></topic>
+<topic title="Glee"></topic>
+<topic title="Grey Anatomy"></topic>
+<topic title="Lost"></topic>
+<topic title="Saturday Night Live"></topic>
+</topics>
+</category>
+<category id="soccer" title="Soccer">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/soccer"/>
+</provider-mappings>
+<topics>
+<topic title="Wayne Rooney"></topic>
+<topic title="Fernando Torres"></topic>
+<topic title="Howard Webb"></topic>
+<topic title="Wembley Stadium"></topic>
+<topic title="Euro 2012"></topic>
+<topic title="World Cup 2014"></topic>
+</topics>
+</category>
+<category id="sports" title="Sports">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/american_football"/>
+<provider-mapping id="Freebase" category="/baseball"/>
+<provider-mapping id="Freebase" category="/basketball"/>
+<provider-mapping id="Freebase" category="/crickets"/>
+<provider-mapping id="Freebase" category="/ice_hockey"/>
+<provider-mapping id="Freebase" category="/martial_arts"/>
+<provider-mapping id="Freebase" category="/olympics"/>
+<provider-mapping id="Freebase" category="/soccer"/>
+<provider-mapping id="Freebase" category="/sports"/>
+<provider-mapping id="Freebase" category="/tennis"/>
+<provider-mapping id="YouTube" category="Sports"/>
+</provider-mappings>
+<topics>
+<topic title="NFL"></topic>
+<topic title="Olympics 2012"></topic>
+<topic title="Super Bowl"></topic>
+<topic title="UFC 100"></topic>
+<topic title="World Cup 2014"></topic>
+<topic title="Euro 2012"></topic>
+</topics>
+</category>
+<category id="technology" title="Technology">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/computers"/>
+<provider-mapping id="Freebase" category="/internet"/>
+<provider-mapping id="YouTube" category="Tech"/>
+</provider-mappings>
+<topics>
+<topic title="iPad"></topic>
+<topic title="iPhone"></topic>
+<topic title="iPod"></topic>
+<topic title="Bing"></topic>
+<topic title="Facebook"></topic>
+<topic title="Google+"></topic>
+<topic title="Twitter"></topic>
+<topic title="YouTube"></topic>
+</topics>
+</category>
+<category id="transportation" title="Transportation">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/automotive"/>
+<provider-mapping id="Freebase" category="/aviation"/>
+<provider-mapping id="Freebase" category="/rail"/>
+<provider-mapping id="Freebase" category="/transportation"/>
+<provider-mapping id="YouTube" category="Autos"/>
+</provider-mappings>
+<topics>
+<topic title="787 Dreamliner"></topic>
+<topic title="Airbus A380"></topic>
+<topic title="2010 Porsche Boxster"></topic>
+</topics>
+</category>
+<category id="travel" title="Travel">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/travel"/>
+<provider-mapping id="YouTube" category="Travel"/>
+</provider-mappings>
+<topics>
+<topic title="Canada"></topic>
+<topic title="France"></topic>
+<topic title="Italy"></topic>
+<topic title="South Africa"></topic>
+<topic title="Vancouver"></topic>
+</topics>
+</category>
+<category id="video-games" title="Video Games">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/games"/>
+<provider-mapping id="Freebase" category="/cvg"/>
+<provider-mapping id="YouTube" category="Games"/>
+</provider-mappings>
+<topics>
+<topic title="Final Fantasy XIV"></topic>
+<topic title="God of War III"></topic>
+<topic title="Halo Reach"></topic>
+<topic title="Motion Control"></topic>
+<topic title="Split Second"></topic>
+<topic title="Super Mario Galaxy 2"></topic>
+</topics>
+</category>
+<category id="weather" title="Weather">
+<provider-mappings>
+<provider-mapping id="Freebase" category="/meteorology"/>
+</provider-mappings>
+<topics>
+<topic title="Tsunami"></topic>
+<topic title="Snow"></topic>
+</topics>
+</category>
+</categories>

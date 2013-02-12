@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /resources/
+Allow: /
+
+Sitemap: http://www.theinternetbuzz.com/sitemap.xml
+
