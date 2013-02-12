@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{05BC6B2A-B5D5-4CCE-A3A3-957659333B90}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TheInternetBuzzWebApplication</RootNamespace>
+    <AssemblyName>TheInternetBuzzWebApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkProfile />
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication>disabled</IISExpressAnonymousAuthentication>
+    <IISExpressWindowsAuthentication>disabled</IISExpressWindowsAuthentication>
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AspAlliance.CacheManager, Version=1.0.60115.1, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AspAlliance.CacheManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.GData.Client, Version=1.4.0.2, Culture=neutral, PublicKeyToken=04a59ca9b0273830, processorArchitecture=MSIL" />
+    <Reference Include="Google.GData.Extensions, Version=1.4.0.2, Culture=neutral, PublicKeyToken=0b4c5df2ebf20876, processorArchitecture=MSIL" />
+    <Reference Include="Google.GData.YouTube, Version=1.4.0.2, Culture=neutral, PublicKeyToken=af04a32718ae8833, processorArchitecture=MSIL" />
+    <Reference Include="log4net, Version=1.2.11.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.1.12217, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="code\TheInternetBuzz\Commands\Categorization\ICategorizationCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Categorization\CategorizationCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Explanation\IExplanationCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Explanation\ExplanationCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Search\SearchCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Suggestions\ISuggestionsCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Suggestions\SuggestionsCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Topics\ITopicCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Topics\TopicCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Trends\YearlyTrendsCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Video\ISearchVideoCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Video\VideoSearchCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Connectors\Atom\EntryData.cs" />
+    <Compile Include="code\TheInternetBuzz\Connectors\HTML\HTMLConnector.cs" />
+    <Compile Include="code\TheInternetBuzz\Connectors\HTTP\HTTPConnector.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Audit\AuditServiceItem.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Audit\AuditList.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Audit\AuditServiceItemComparer.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Audit\AuditServiceItemComparerEnum.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\CategoryEnum.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Error\ErrorItem.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Error\ErrorList.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Explanation\ExplanationItem.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Location\Country.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Location\Location.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Location\Region.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Location\RegionName.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Topics\TopicList.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Video\VideoItemComparer.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Video\VideoItemComparerEnum.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Video\VideoItem.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Video\VideoList.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Alexa\Test\AlexaTrendsServiceTest.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Bing\BingSearchContainer.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Bing\Test\BingSearchServiceTest.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Flickr\FlickrSearchParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Flickr\FlickrSearchService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Flickr\Test\FlickrSearchServiceTest.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Freebase\Test\FreebaseTopicServiceTest.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\ITunes\ITunesTrendsService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\ITunes\ITunesTypeEnum.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\ITunes\ITunesTrendsParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\ITunes\Test\ITunesTrendsServiceTest.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Maxmind\DatabaseInfo.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Maxmind\LookupService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Twitter\Test\TwitterSearchServiceTest.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Cache\CacheCallback.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Config\Test\ConfigServiceTest.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Explanation\Test\ExplanationServiceTest.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Location\Test\LocationServiceTest.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Logging\LoggerKeys.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Logging\LogService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Alexa\AlexaTrendsParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Alexa\AlexaTrendsService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Freebase\FreebaseTopicService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Freebase\FreebaseTopicParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Google\GoogleTrendsService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Google\GoogleSearchParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Twitter\TwitterSearchParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Twitter\TwitterSearchService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Twitter\TwitterTrendsParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Twitter\TwitterTrendsService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Twitter\TwitterTweetParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\WhatTheTrend\WhatTheTrendTypeEnum.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\WhatTheTrend\WhatTheTrendTrendsParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\WhatTheTrend\WhatTheTrendTrendsService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\WhatTheTrend\WhatTheTrendExplanationService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\YouTube\YouTubeSearchService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\YouTube\YouTubeVideoParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\YouTube\YouTubeTrendsService.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Ads\AdsTypeEnum.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Audit\AuditService.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Cache\CacheService.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Categorization\CategorizationService.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Categorization\CategoryItem.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Categorization\CategoriesList.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Categorization\ProviderMapping.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Categorization\ProviderMappingList.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Categorization\CategorizationCacheHelper.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Config\ConfigKeys.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Config\ConfigService.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Error\ErrorService.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Explanation\ExplanationService.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Explanation\ExplanationCacheHelper.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Search\SearchWorkerThread.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Search\SearchCacheHelper.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Suggestions\IProviderSuggestionsService.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Suggestions\SuggestionItem.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Suggestions\SuggestionsContext.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Suggestions\SuggestionsList.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Suggestions\SuggestionsService.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Suggestions\SuggestionsCacheHelper.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Topics\IProviderTopicService.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Topics\TopicWorkerThread.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Topics\TopicCacheHelper.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Topics\TopicItem.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Topics\TopicService.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Trends\TrendItemComparer.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Trends\TrendItemComparerEnum.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Trends\IProviderTrendsService.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Trends\TrendsBuilder.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Trends\TrendsCacheHelper.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Trends\TrendsSerializer.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Video\IProviderVideoSearchService.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Video\VideoSearchCacheHelper.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Video\VideoListSerializer.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Video\VideoService.cs" />
+    <Compile Include="code\TheInternetBuzz\Util\XMLUtil.cs" />
+    <Compile Include="code\TheInternetBuzz\Util\Test\DateParserTest.cs" />
+    <Compile Include="code\TheInternetBuzz\Util\XMLSerializer.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Search\ISearchCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Video\VideoTrendsCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Trends\ITrendsCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Commands\Trends\TrendsCommand.cs" />
+    <Compile Include="code\TheInternetBuzz\Web\Application.cs" />
+    <Compile Include="code\TheInternetBuzz\Web\Controls\AsyncUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="code\TheInternetBuzz\Web\Modules\URLPathTokenizer.cs" />
+    <Compile Include="code\TheInternetBuzz\Web\URLContext.cs" />
+    <Compile Include="code\TheInternetBuzz\Web\URLBuilder.cs" />
+    <Compile Include="controls\amazon\AdsControl.ascx.cs">
+      <DependentUpon>AdsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\amazon\MP3Control.ascx.cs">
+      <DependentUpon>MP3Control.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\google\AdsControl.ascx.cs">
+      <DependentUpon>AdsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\sedo\TrackerControl.ascx.cs">
+      <DependentUpon>TrackerControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\CategoryListControl.ascx.cs">
+      <DependentUpon>CategoryListControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\BuzzListControl.ascx.cs">
+      <DependentUpon>BuzzListControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\HtmlPostBodyControl.ascx.cs">
+      <DependentUpon>HtmlPostBodyControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\FooterControl.ascx.cs">
+      <DependentUpon>FooterControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\HtmlHeadControl.ascx.cs">
+      <DependentUpon>HtmlHeadControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\HeaderControl.ascx.cs">
+      <DependentUpon>HeaderControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\NavigationControl.ascx.cs">
+      <DependentUpon>NavigationControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\SearchResultsControl.ascx.cs">
+      <DependentUpon>SearchResultsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\ShareThisControl.ascx.cs">
+      <DependentUpon>ShareThisControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\SuggestionsControl.ascx.cs">
+      <DependentUpon>SuggestionsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\TilesControl.ascx.cs">
+      <DependentUpon>TilesControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\TitleControl.ascx.cs">
+      <DependentUpon>TitleControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\ToolbarControl.ascx.cs">
+      <DependentUpon>ToolbarControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\TopicControl.ascx.cs">
+      <DependentUpon>TopicControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\TrackControl.ascx.cs">
+      <DependentUpon>TrackControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\CloudControl.ascx.cs">
+      <DependentUpon>CloudControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\theinternetbuzz\VideoControl.ascx.cs">
+      <DependentUpon>VideoControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\twitter\SearchWidgetControl.ascx.cs">
+      <DependentUpon>SearchWidgetControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="controls\whatthetrend\ExplanationControl.ascx.cs">
+      <DependentUpon>ExplanationControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="pages\admin\BuildTrends.aspx.cs">
+      <DependentUpon>BuildTrends.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\admin\Cache.aspx.cs">
+      <DependentUpon>Cache.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\admin\Audit.aspx.cs">
+      <DependentUpon>Audit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\admin\Error.aspx.cs">
+      <DependentUpon>Error.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\affiliates\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\theinternetbuzz\Credits.aspx.cs">
+      <DependentUpon>Credits.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\theinternetbuzz\TopBuzz.aspx.cs">
+      <DependentUpon>TopBuzz.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pages\topic\Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="code\TheInternetBuzz\Connectors\Atom\AtomConnector.cs" />
+    <Compile Include="code\TheInternetBuzz\Connectors\Atom\Entry.cs" />
+    <Compile Include="code\TheInternetBuzz\Connectors\Atom\EntryList.cs" />
+    <Compile Include="code\TheInternetBuzz\Connectors\JSON\JSONConnector.cs" />
+    <Compile Include="code\TheInternetBuzz\Connectors\RSS\Channel.cs" />
+    <Compile Include="code\TheInternetBuzz\Connectors\RSS\Item.cs" />
+    <Compile Include="code\TheInternetBuzz\Connectors\RSS\RSSConnector.cs" />
+    <Compile Include="code\TheInternetBuzz\Connectors\XML\XMLConnector.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Search\IProviderSearchService.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Search\SearchContext.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Search\SearchTypeEnum.cs" />
+    <Compile Include="code\TheInternetBuzz\Util\TextCleaner.cs" />
+    <Compile Include="code\TheInternetBuzz\Web\Modules\SecurityModule.cs" />
+    <Compile Include="code\TheInternetBuzz\Web\Modules\URLRewriteModule.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Bing\BingSearchService.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\ProviderEnum.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Search\SearchResultItem.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Search\SearchResultList.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Search\SearchService.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Trends\TrendItem.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Trends\TrendsList.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Trends\TrendsService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Google\GoogleSearchService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Google\GoogleTrendsParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Google\GoogleSuggestionsService.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Location\LocationService.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Trends\TrendsWorkerThread.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Wikipedia\WikipediaTopicService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Wikipedia\WikiTopicParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Yahoo\YahooTrendsParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Yahoo\YahooSearchService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Yahoo\YahooTrendsService.cs" />
+    <Compile Include="code\TheInternetBuzz\Util\DateParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\List.cs" />
+    <Compile Include="code\TheInternetBuzz\Version.cs" />
+    <Compile Include="resources\Sitemap.aspx.cs">
+      <DependentUpon>Sitemap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="data\GeoLiteCity.dat">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="bin\AspAlliance.CacheManager.dll" />
+    <Content Include="bin\Google.GData.Client.dll" />
+    <Content Include="bin\Google.GData.Extensions.dll" />
+    <Content Include="bin\Google.GData.YouTube.dll" />
+    <Content Include="bin\log4net.dll" />
+    <Content Include="bin\Newtonsoft.Json.dll" />
+    <Content Include="config\log4net.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="controls\amazon\AdsControl.ascx" />
+    <Content Include="controls\amazon\MP3Control.ascx" />
+    <Content Include="controls\google\AdsControl.ascx" />
+    <Content Include="controls\sedo\TrackerControl.ascx" />
+    <Content Include="controls\theinternetbuzz\CategoryListControl.ascx" />
+    <Content Include="controls\theinternetbuzz\BuzzListControl.ascx" />
+    <Content Include="controls\theinternetbuzz\HtmlPostBodyControl.ascx" />
+    <Content Include="controls\theinternetbuzz\FooterControl.ascx" />
+    <Content Include="controls\theinternetbuzz\HtmlHeadControl.ascx" />
+    <Content Include="controls\theinternetbuzz\HeaderControl.ascx" />
+    <Content Include="controls\theinternetbuzz\NavigationControl.ascx" />
+    <Content Include="controls\theinternetbuzz\SearchResultsControl.ascx" />
+    <Content Include="controls\theinternetbuzz\ShareThisControl.ascx" />
+    <Content Include="controls\theinternetbuzz\SuggestionsControl.ascx" />
+    <Content Include="controls\theinternetbuzz\TilesControl.ascx" />
+    <Content Include="controls\theinternetbuzz\TitleControl.ascx" />
+    <Content Include="controls\theinternetbuzz\ToolbarControl.ascx" />
+    <Content Include="controls\theinternetbuzz\TopicControl.ascx" />
+    <Content Include="controls\theinternetbuzz\TrackControl.ascx" />
+    <Content Include="controls\theinternetbuzz\CloudControl.ascx" />
+    <Content Include="controls\theinternetbuzz\VideoControl.ascx" />
+    <Content Include="controls\twitter\SearchWidgetControl.ascx" />
+    <Content Include="controls\whatthetrend\ExplanationControl.ascx" />
+    <Content Include="data\Categories.xml">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="data\Trends.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="data\VideoTrends.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Global.asax" />
+    <Content Include="pages\admin\BuildTrends.aspx" />
+    <Content Include="pages\admin\Cache.aspx" />
+    <Content Include="pages\admin\Audit.aspx" />
+    <Content Include="pages\admin\Error.aspx" />
+    <Content Include="pages\theinternetbuzz\Credits.aspx" />
+    <Content Include="pages\theinternetbuzz\TopBuzz.aspx" />
+    <Content Include="pages\topic\Default.aspx" />
+    <Content Include="resources\affiliates.html" />
+    <Content Include="resources\favicon.ico" />
+    <Content Include="resources\google76e64a3e403b34f8.html" />
+    <Content Include="resources\images\backgrounds\bg.png" />
+    <Content Include="resources\images\buttons\btn-search.png" />
+    <Content Include="resources\images\buttons\btn-left.png" />
+    <Content Include="resources\images\buttons\btn-right.png" />
+    <Content Include="resources\images\icon.ico" />
+    <Content Include="resources\images\icons\facebook.png" />
+    <Content Include="resources\images\icons\bullet.gif" />
+    <Content Include="resources\images\icons\freebase.png" />
+    <Content Include="resources\images\icons\myspace.png" />
+    <Content Include="resources\images\icons\twitter.png" />
+    <Content Include="resources\images\icons\wikipedia.png" />
+    <Content Include="resources\images\logo.png" />
+    <Content Include="resources\images\logo_thumb.jpg" />
+    <Content Include="resources\javascript\jquery-1.9.0.min.js" />
+    <Content Include="resources\javascript\jquery.imagesloaded.min.js" />
+    <Content Include="resources\javascript\jquery.masonry.min.js" />
+    <Content Include="resources\javascript\slider.js" />
+    <Content Include="resources\javascript\jquery.prettyPhoto.js" />
+    <Content Include="pages\affiliates\Default.aspx" />
+    <Content Include="pages\Default.aspx" />
+    <Content Include="resources\styles\prettyPhoto.css" />
+    <Content Include="resources\robots.txt" />
+    <Content Include="resources\styles\styles.css" />
+    <Content Include="web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="resources\Sitemap.aspx" />
+    <None Include="Properties\PublishProfiles\theinternetbuzz - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\theinternetbuzz - Web Deploy.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="logs\" />
+    <Folder Include="resources\images\prettyPhoto\dark_rounded\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>80</DevelopmentServerPort>
+          <DevelopmentServerVPath>/TheInternetBuzzWebApplication/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/TheInternetBuzzWebApplication</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
