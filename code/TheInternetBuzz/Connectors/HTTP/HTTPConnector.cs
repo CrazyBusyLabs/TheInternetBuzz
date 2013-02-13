@@ -63,48 +63,56 @@ namespace TheInternetBuzz.Connectors.HTTP
 
         public string PostData(string url, string user, string password, string data)
         {
-            // Create a request using a URL that can receive a post. 
-            WebRequest request = BuildWebRequest(url, null);
+            string response = null;
 
-            // Set the Method property of the request to POST.
-            request.Method = "POST";
-            
-            // Create POST data and convert it to a byte array.
-            byte[] byteArray = Encoding.UTF8.GetBytes(data);
+            try
+            {
+                // Create a request using a URL that can receive a post. 
+                WebRequest request = BuildWebRequest(url, null);
 
-            // Set the ContentType property of the WebRequest.
-            request.ContentType = "application/x-www-form-urlencoded";
+                // Set the Method property of the request to POST.
+                request.Method = "POST";
+            
+                // Create POST data and convert it to a byte array.
+                byte[] byteArray = Encoding.UTF8.GetBytes(data);
 
-            // Set the ContentLength property of the WebRequest.
-            request.ContentLength = byteArray.Length;
-            
-            // Get the request stream.
-            Stream dataStream = request.GetRequestStream();
-            
-            // Write the data to the request stream.
-            dataStream.Write(byteArray, 0, byteArray.Length);
-            // Close the Stream object.
-            
-            dataStream.Close();
-            
-            // Get the response.
-            WebResponse response = request.GetResponse();
-            
-            // Get the stream containing content returned by the server.
-            dataStream = response.GetResponseStream();
+                // Set the ContentType property of the WebRequest.
+                request.ContentType = "application/x-www-form-urlencoded";
 
-            // Open the stream using a StreamReader for easy access.
-            StreamReader reader = new StreamReader(dataStream);
+                // Set the ContentLength property of the WebRequest.
+                request.ContentLength = byteArray.Length;
             
-            // Read the content.
-            string responseFromServer = reader.ReadToEnd();
+                // Get the request stream.
+                Stream dataStream = request.GetRequestStream();
+            
+                // Write the data to the request stream.
+                dataStream.Write(byteArray, 0, byteArray.Length);
+                // Close the Stream object.
+            
+                dataStream.Close();
+            
+                // Get the response.
+                WebResponse webResponse = request.GetResponse();
+            
+                // Get the stream containing content returned by the server.
+                dataStream = webResponse.GetResponseStream();
 
-            // Clean up the streams.
-            reader.Close();
-            dataStream.Close();
-            response.Close();
+                // Open the stream using a StreamReader for easy access.
+                StreamReader reader = new StreamReader(dataStream);
+            
+                // Read the content.
+                response = reader.ReadToEnd();
 
-            return responseFromServer;
+                // Clean up the streams.
+                reader.Close();
+                dataStream.Close();
+                webResponse.Close();
+            }
+            catch (Exception e)
+            {
+                LogService.Error(LoggerKeys.THEINTERNETBUZZ_LOGGING_CONNECTOR, url, e);
+            }
+            return response;
         }
 
         public HttpWebRequest BuildWebRequest(string url, string mime)
