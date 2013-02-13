@@ -8,6 +8,7 @@ namespace TheInternetBuzz.Services.Config
         public static string THEINTERNETBUZZ_CONNECTOR_USER_AGENT = "TheInternetBuzz.Connector.UserAgent";
         public static string THEINTERNETBUZZ_CONNECTOR_REFERER = "TheInternetBuzz.Connector.Referer";
         public static string THEINTERNETBUZZ_EXPLANATION_EXPIRATION = "TheInternetBuzz.Explanation.Cache.Expiration";
+        public static string THEINTERNETBUZZ_HOST = "TheInternetBuzz.Host";
         public static string THEINTERNETBUZZ_HOST_URL = "TheInternetBuzz.Host.URL";
         public static string THEINTERNETBUZZ_SEARCH_DEFAULT_QUERY = "TheInternetBuzz.Search.DefaultQuery";
         public static string THEINTERNETBUZZ_SEARCH_EXPIRATION = "TheInternetBuzz.Search.Cache.Expiration";
@@ -35,6 +36,8 @@ namespace TheInternetBuzz.Services.Config
         public static string GOOGLE_ADSENSE_SLOT_728x90 = "Google.Adsense.Slot.728x90";
         public static string INSTAGRAM_CLIENT_ID = "Instagram.API.ClientID";
         public static string INSTAGRAM_CLIENT_SECRET = "Instagram.API.ClientSecret";
+        public static string SPLUNK_PROJECT_ID = "Splunk.ProjectID";
+        public static string SPLUNK_ACCESS_TOKEN = "Splunk.AccessToken";
         public static string TWITTER_CLIENT_NAME = "Twitter.ClientName";
         public static string TWITTER_URL = "Twitter.URL";
         public static string TWITTER_VERSION = "Twitter.Version";

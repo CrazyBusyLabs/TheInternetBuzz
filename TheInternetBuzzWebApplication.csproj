@@ -99,6 +99,9 @@
     <Compile Include="code\TheInternetBuzz\Data\CategoryEnum.cs" />
     <Compile Include="code\TheInternetBuzz\Data\Error\ErrorItem.cs" />
     <Compile Include="code\TheInternetBuzz\Data\Error\ErrorList.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Event\SourceEnum.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Event\SourceTypeEnum.cs" />
+    <Compile Include="code\TheInternetBuzz\Data\Event\EventItem.cs" />
     <Compile Include="code\TheInternetBuzz\Data\Explanation\ExplanationItem.cs" />
     <Compile Include="code\TheInternetBuzz\Data\Location\Country.cs" />
     <Compile Include="code\TheInternetBuzz\Data\Location\Location.cs" />
@@ -122,9 +125,11 @@
     <Compile Include="code\TheInternetBuzz\Providers\ITunes\Test\ITunesTrendsServiceTest.cs" />
     <Compile Include="code\TheInternetBuzz\Providers\Maxmind\DatabaseInfo.cs" />
     <Compile Include="code\TheInternetBuzz\Providers\Maxmind\LookupService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Splunk\SplunkService.cs" />
     <Compile Include="code\TheInternetBuzz\Providers\Twitter\Test\TwitterSearchServiceTest.cs" />
     <Compile Include="code\TheInternetBuzz\Services\Cache\CacheCallback.cs" />
     <Compile Include="code\TheInternetBuzz\Services\Config\Test\ConfigServiceTest.cs" />
+    <Compile Include="code\TheInternetBuzz\Services\Event\EventService.cs" />
     <Compile Include="code\TheInternetBuzz\Services\Explanation\Test\ExplanationServiceTest.cs" />
     <Compile Include="code\TheInternetBuzz\Services\Location\Test\LocationServiceTest.cs" />
     <Compile Include="code\TheInternetBuzz\Services\Logging\LoggerKeys.cs" />
