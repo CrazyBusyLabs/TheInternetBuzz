@@ -17,15 +17,6 @@
     <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>Argi</ID>
-    <Title>Argi</Title>
-    <ImageURL>http://farm5.staticflickr.com/4125/4996696600_f2b0e0a1ae.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm5.staticflickr.com/4125/4996696600_f2b0e0a1ae.jpg</TileImageURL>
-    <Provider>Twitter</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
     <ID>Argo</ID>
     <Title>Argo</Title>
     <ImageURL>http://a1432.phobos.apple.com/us/r1000/066/Video/v4/64/ef/29/64ef2927-2eab-4cef-82f9-f689db00546f/mza_6335556686961612692.170x170-75.jpg</ImageURL>
@@ -39,18 +30,9 @@
     <Title>Ash Wednesday</Title>
     <ImageURL>http://farm3.staticflickr.com/2689/4365713070_3ed15840a6.jpg</ImageURL>
     <TileImageURL>http://src.sencha.io/150/http://farm3.staticflickr.com/2689/4365713070_3ed15840a6.jpg</TileImageURL>
-    <Provider>Twitter</Provider>
+    <Provider>Google</Provider>
     <Category>Unknown</Category>
-    <Weight>4</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
-    <ID>Atltico-MG</ID>
-    <Title>Atlético-MG</Title>
-    <ImageURL>http://farm9.staticflickr.com/8196/8144619636_1196668400.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm9.staticflickr.com/8196/8144619636_1196668400.jpg</TileImageURL>
-    <Provider>Twitter</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
+    <Weight>3</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>Baauer</ID>
@@ -76,6 +58,13 @@
     <Provider>Alexa</Provider>
     <Category>Unknown</Category>
     <Weight>2</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
+    <ID>Boca1-0Toluca</ID>
+    <Title>Boca 1-0 Toluca</Title>
+    <Provider>Twitter</Provider>
+    <Category>Unknown</Category>
+    <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>Bodyinburnedcabin</ID>
@@ -152,8 +141,6 @@
   <anyType xsi:type="TrendItem">
     <ID>DornerManifesto</ID>
     <Title>Dorner Manifesto</Title>
-    <ImageURL>http://farm9.staticflickr.com/8515/8455478942_30dab19f4d.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm9.staticflickr.com/8515/8455478942_30dab19f4d.jpg</TileImageURL>
     <Provider>Google</Provider>
     <Category>Unknown</Category>
     <Weight>3</Weight>
@@ -204,10 +191,8 @@
     <Weight>3</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>Gaga</ID>
-    <Title>Gaga</Title>
-    <ImageURL>http://farm5.staticflickr.com/4016/4659639528_e31e80510d.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm5.staticflickr.com/4016/4659639528_e31e80510d.jpg</TileImageURL>
+    <ID>GetNikitaRenewedForS4</ID>
+    <Title>Get Nikita Renewed For S4</Title>
     <Provider>Twitter</Provider>
     <Category>Unknown</Category>
     <Weight>1</Weight>
@@ -229,13 +214,22 @@
     <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>HappyHeartsDay</ID>
-    <Title>Happy Hearts Day</Title>
-    <ImageURL>http://farm8.staticflickr.com/7175/6541222055_239daa0928.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm8.staticflickr.com/7175/6541222055_239daa0928.jpg</TileImageURL>
+    <ID>GoldeSilva</ID>
+    <Title>Gol De Silva</Title>
+    <ImageURL>http://farm6.staticflickr.com/5304/5563128647_ae478595b8.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm6.staticflickr.com/5304/5563128647_ae478595b8.jpg</TileImageURL>
     <Provider>Twitter</Provider>
     <Category>Unknown</Category>
     <Weight>1</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
+    <ID>HappyValentinesDay</ID>
+    <Title>Happy Valentines Day</Title>
+    <ImageURL>http://farm5.staticflickr.com/4021/4356322752_107557da8e.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm5.staticflickr.com/4021/4356322752_107557da8e.jpg</TileImageURL>
+    <Provider>WhatTheTrend</Provider>
+    <Category>Unknown</Category>
+    <Weight>5</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>HeartAttackGrill</ID>
@@ -263,24 +257,6 @@
     <Provider>ITunes</Provider>
     <Category>Movie</Category>
     <Weight>2</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
-    <ID>iCarlyForTheKCA</ID>
-    <Title>Icarly For The KCA</Title>
-    <ImageURL>http://farm4.staticflickr.com/3062/2380709599_dffce59a37.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm4.staticflickr.com/3062/2380709599_dffce59a37.jpg</TileImageURL>
-    <Provider>Twitter</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
-    <ID>JooNeto</ID>
-    <Title>João Neto</Title>
-    <ImageURL>http://farm7.staticflickr.com/6034/6222223471_56a22f773b.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm7.staticflickr.com/6034/6222223471_56a22f773b.jpg</TileImageURL>
-    <Provider>Twitter</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>JustinTimberlake</ID>
@@ -319,11 +295,29 @@
     <Weight>5</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
+    <ID>KCA</ID>
+    <Title>KCA</Title>
+    <ImageURL>http://farm1.staticflickr.com/115/315074900_e70c9a6b33.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm1.staticflickr.com/115/315074900_e70c9a6b33.jpg</TileImageURL>
+    <Provider>WhatTheTrend</Provider>
+    <Category>Unknown</Category>
+    <Weight>5</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
     <ID>keywordtool</ID>
     <Title>Keyword Tool</Title>
     <ImageURL>http://farm5.staticflickr.com/4083/4972995974_b21f5ea6c2.jpg</ImageURL>
     <TileImageURL>http://src.sencha.io/150/http://farm5.staticflickr.com/4083/4972995974_b21f5ea6c2.jpg</TileImageURL>
     <Provider>Alexa</Provider>
+    <Category>Unknown</Category>
+    <Weight>1</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
+    <ID>Kristian</ID>
+    <Title>Kristian</Title>
+    <ImageURL>http://farm3.staticflickr.com/2048/3536011767_84cf45c4e6.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm3.staticflickr.com/2048/3536011767_84cf45c4e6.jpg</TileImageURL>
+    <Provider>Twitter</Provider>
     <Category>Unknown</Category>
     <Weight>1</Weight>
   </anyType>
@@ -351,6 +345,15 @@
     <Provider>Google</Provider>
     <Category>Unknown</Category>
     <Weight>2</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
+    <ID>LautaroAcosta</ID>
+    <Title>Lautaro Acosta</Title>
+    <ImageURL>http://farm4.staticflickr.com/3123/2878911612_902ec7d312.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm4.staticflickr.com/3123/2878911612_902ec7d312.jpg</TileImageURL>
+    <Provider>Twitter</Provider>
+    <Category>Unknown</Category>
+    <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>Lembo</ID>
@@ -405,6 +408,15 @@
     <Weight>2</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
+    <ID>Miriam</ID>
+    <Title>Miriam</Title>
+    <ImageURL>http://farm4.staticflickr.com/3029/2836999705_502077af54.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm4.staticflickr.com/3029/2836999705_502077af54.jpg</TileImageURL>
+    <Provider>Twitter</Provider>
+    <Category>Unknown</Category>
+    <Weight>1</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
     <ID>MumfordSons</ID>
     <Title>Mumford &amp; Sons</Title>
     <ImageURL>http://a1415.phobos.apple.com/us/r1000/101/Music/v4/ed/a6/4a/eda64a27-9f48-f3c9-f37d-f86c5c507f07/886443584525.170x170-75.jpg</ImageURL>
@@ -430,6 +442,15 @@
     <Provider>Google</Provider>
     <Category>Unknown</Category>
     <Weight>2</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
+    <ID>Novaretti</ID>
+    <Title>Novaretti</Title>
+    <ImageURL>http://farm5.staticflickr.com/4140/4938494924_d2f1ff3594.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm5.staticflickr.com/4140/4938494924_d2f1ff3594.jpg</TileImageURL>
+    <Provider>Twitter</Provider>
+    <Category>Unknown</Category>
+    <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>O.j.Simpsonparty</ID>
@@ -486,10 +507,10 @@
     <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>RonaldinhoGacho</ID>
-    <Title>Ronaldinho Gaúcho</Title>
-    <ImageURL>http://farm4.staticflickr.com/3296/2761186059_d7da8d2bd3.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm4.staticflickr.com/3296/2761186059_d7da8d2bd3.jpg</TileImageURL>
+    <ID>SanValentn</ID>
+    <Title>San Valentín</Title>
+    <ImageURL>http://farm4.staticflickr.com/3302/3245767600_df3f74987a.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm4.staticflickr.com/3302/3245767600_df3f74987a.jpg</TileImageURL>
     <Provider>Twitter</Provider>
     <Category>Unknown</Category>
     <Weight>1</Weight>
@@ -518,15 +539,6 @@
     <Provider>ITunes</Provider>
     <Category>Movie</Category>
     <Weight>5</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
-    <ID>SPFC</ID>
-    <Title>SPFC</Title>
-    <ImageURL>http://farm3.staticflickr.com/2169/3534045563_b95fcb4622.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm3.staticflickr.com/2169/3534045563_b95fcb4622.jpg</TileImageURL>
-    <Provider>Twitter</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>SportsIllustratedSwimsuit2013</ID>
@@ -581,6 +593,15 @@
     <Provider>ITunes</Provider>
     <Category>Movie</Category>
     <Weight>4</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
+    <ID>Toluca</ID>
+    <Title>Toluca</Title>
+    <ImageURL>http://farm3.staticflickr.com/2723/4335653617_5191b2bc76.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm3.staticflickr.com/2723/4335653617_5191b2bc76.jpg</TileImageURL>
+    <Provider>WhatTheTrend</Provider>
+    <Category>Unknown</Category>
+    <Weight>5</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>ValentinesDay</ID>

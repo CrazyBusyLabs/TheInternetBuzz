@@ -1,7 +1,9 @@
 ﻿using System;
 
 using TheInternetBuzz.Data.Error;
+using TheInternetBuzz.Data.Event;
 using TheInternetBuzz.Services.Logging;
+using TheInternetBuzz.Services.Event;
 
 namespace TheInternetBuzz.Services.Error
 {
@@ -20,6 +22,8 @@ namespace TheInternetBuzz.Services.Error
             }
 
             LogService.Error("TheInternetBuzz.Error", errorItem.ToString(), exception);
+            EventService.Log(new EventItem(SourceEnum.Error, SourceTypeEnum.generic_multiple_line, errorItem.ToString() + " " + exception.StackTrace));
+
         }
 
         public static ErrorList GetErrorList()
