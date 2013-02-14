@@ -41,26 +41,10 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
-    <ID>i6zaVYWLTkU</ID>
-    <Title>Bread &amp; Milk</Title>
-    <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i.ytimg.com/vi/i6zaVYWLTkU/default.jpg</ThumbnailImageURL>
-    <ThumbnailImageWidth>120</ThumbnailImageWidth>
-    <ThumbnailImageHeight>90</ThumbnailImageHeight>
-  </anyType>
-  <anyType xsi:type="VideoItem">
     <ID>DaXsuHEhaAk</ID>
     <Title>Burj Khalifa Pinnacle Panorama - 360 Degree Image</Title>
     <Provider>YouTube</Provider>
     <ThumbnailImageURL>http://i.ytimg.com/vi/DaXsuHEhaAk/default.jpg</ThumbnailImageURL>
-    <ThumbnailImageWidth>120</ThumbnailImageWidth>
-    <ThumbnailImageHeight>90</ThumbnailImageHeight>
-  </anyType>
-  <anyType xsi:type="VideoItem">
-    <ID>gAmNoFO_fag</ID>
-    <Title>Cat Watching Hockey</Title>
-    <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i.ytimg.com/vi/gAmNoFO_fag/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
@@ -113,6 +97,14 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
+    <ID>VQGEOaA3JIs</ID>
+    <Title>Full Court Shot 1 Hop - Anna Olson - Lpwmv</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i.ytimg.com/vi/VQGEOaA3JIs/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
     <ID>HuUfNhKHFVg</ID>
     <Title>GOP Governors Increases Burden On Poor With Regressive Tax Plan</Title>
     <Provider>YouTube</Provider>
@@ -121,10 +113,18 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
-    <ID>siF0iQOm6wg</ID>
-    <Title>Harlem Shake (Grandma Edition)</Title>
+    <ID>hGgr8ZbeNgQ</ID>
+    <Title>Harlem Shake (Black Edition)</Title>
     <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i.ytimg.com/vi/siF0iQOm6wg/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageURL>http://i.ytimg.com/vi/hGgr8ZbeNgQ/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
+    <ID>DABphlXEyW8</ID>
+    <Title>Harlem Shake (Matt And Kim Edition)</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i.ytimg.com/vi/DABphlXEyW8/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
@@ -249,10 +249,10 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
-    <ID>w0o5xVkzo54</ID>
-    <Title>Red Hot Nickel Ball On Ice</Title>
+    <ID>JF8BRvqGCNs</ID>
+    <Title>Rihanna - Stay Ft Mikky Ekko</Title>
     <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i.ytimg.com/vi/w0o5xVkzo54/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageURL>http://i.ytimg.com/vi/JF8BRvqGCNs/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
@@ -313,14 +313,6 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
-    <ID>kPDvBMp18us</ID>
-    <Title>Tornado In Hattiesburg, MS 10 Feb, 2013</Title>
-    <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i.ytimg.com/vi/kPDvBMp18us/default.jpg</ThumbnailImageURL>
-    <ThumbnailImageWidth>120</ThumbnailImageWidth>
-    <ThumbnailImageHeight>90</ThumbnailImageHeight>
-  </anyType>
-  <anyType xsi:type="VideoItem">
     <ID>Ip45GkOy9iA</ID>
     <Title>Towers Collapsing In Slow Motion - The Slow Mo Guys</Title>
     <Provider>YouTube</Provider>
@@ -333,6 +325,14 @@
     <Title>Turkish Airline Plane Engine Burning : Footage From The Inside</Title>
     <Provider>YouTube</Provider>
     <ThumbnailImageURL>http://i.ytimg.com/vi/mo4uJL0yDIg/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
+    <ID>QkNrSpqUr-E</ID>
+    <Title>UGA Men’s Swim &amp; Dive Harlem Shake</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i.ytimg.com/vi/QkNrSpqUr-E/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>

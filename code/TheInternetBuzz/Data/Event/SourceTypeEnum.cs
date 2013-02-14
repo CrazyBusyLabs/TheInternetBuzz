@@ -2,7 +2,7 @@ namespace TheInternetBuzz.Data.Event
 {
 	public enum SourceTypeEnum
 	{
-        GenericSingleLine,
-        GenericMultipleLine
+        generic_single_line,
+        generic_multiple_line
 	}
 }

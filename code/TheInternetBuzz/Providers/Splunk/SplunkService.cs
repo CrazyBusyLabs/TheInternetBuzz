@@ -13,6 +13,7 @@ namespace TheInternetBuzz.Providers.Splunk
 {
     public class SplunkService
     {
+        static private string SITE = "api.splunkstorm.com";
         static private string SPLUNK_URL_TEMPLATE = "https://api.splunkstorm.com/1/inputs/http?project={0}&host={1}&source={2}&sourcetype={3}";
 
         static private string ACCESS_TOKEN = ConfigService.GetConfig(ConfigKeys.SPLUNK_ACCESS_TOKEN, "");
@@ -32,7 +33,7 @@ namespace TheInternetBuzz.Providers.Splunk
             LogService.Debug(typeof(SplunkService), "request to splunk -> " + url);
 
             HTTPConnector HTTPConnector = new HTTPConnector();
-            string response = HTTPConnector.PostData(url, "", ACCESS_TOKEN, eventItem.Data);
+            string response = HTTPConnector.PostData(SITE, url, "", ACCESS_TOKEN, eventItem.Data);
 
             LogService.Debug(typeof(SplunkService), "response from splunk -> " + response);
 

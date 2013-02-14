@@ -36,7 +36,7 @@ namespace TheInternetBuzz.Services.Audit
             auditItem.Duration = auditItem.EndTime - auditItem.StartTime;
 
             LogService.Info(LoggerKeys.THEINTERNETBUZZ_LOGGING_AUDIT, auditItem.ToString());
-            EventService.Log(new EventItem(SourceEnum.Audit, SourceTypeEnum.GenericSingleLine, auditItem.ToString()));
+            EventService.Log(new EventItem(SourceEnum.Audit, SourceTypeEnum.generic_single_line, auditItem.ToString()));
         }
 
         public static AuditList GetAuditList()

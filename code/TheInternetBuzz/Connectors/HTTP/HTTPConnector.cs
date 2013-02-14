@@ -61,7 +61,7 @@ namespace TheInternetBuzz.Connectors.HTTP
             return status;
         }
 
-        public string PostData(string url, string user, string password, string data)
+        public string PostData(string site, string url, string user, string password, string data)
         {
             string response = null;
 
@@ -69,6 +69,13 @@ namespace TheInternetBuzz.Connectors.HTTP
             {
                 // Create a request using a URL that can receive a post. 
                 WebRequest request = BuildWebRequest(url, null);
+
+                // Authenitcation
+                NetworkCredential networkCredential = new NetworkCredential("theinternetbuzz", password);
+                CredentialCache crendentialCache = new CredentialCache();
+                crendentialCache.Add(url, 443, "Basic", networkCredential);
+                request.Credentials = networkCredential;
+                request.PreAuthenticate = true;
 
                 // Set the Method property of the request to POST.
                 request.Method = "POST";
