@@ -45,9 +45,19 @@
 <div class="creditEntryURL"><a href="http://www.maxmind.com/">http://www.maxmind.com/</a></div>
 </div>
 <div class="creditEntry">
+<div class="creditEntryTitle"><h2><a href="http://www.windowsazure.com/">Microsoft Windows Azure</a></h2></div>
+<div class="creditEntryContent">Windows Azure is a Microsoft cloud computing platform used to build, deploy and manage applications and services through a global network of Microsoft-managed datacenters.</div>
+<div class="creditEntryURL"><a href="http://www.windowsazure.com/">http://www.windowsazure.com/</a></div>
+</div>
+<div class="creditEntry">
 <div class="creditEntryTitle"><h2><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">Pretty Photo</a></h2></div>
 <div class="creditEntryContent">PrettyPhoto - by St&eacute;phane Caron - is a jQuery based lightbox clone. It is used to display YouTube video on our site. Merci St&eacute;phane.</div>
 <div class="creditEntryURL"><a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/">http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/</a></div>
+</div>
+<div class="creditEntry">
+<div class="creditEntryTitle"><h2><a href="https://www.splunkstorm.com/">Splunk Storm&trade;</a></h2></div>
+<div class="creditEntryContent">Splunk Storm is the new Splunk service for analyzing and troubleshooting cloud applications.</div>
+<div class="creditEntryURL"><a href="https://www.splunkstorm.com/">https://www.splunkstorm.com/</a></div>
 </div>
 <div class="creditEntry">
 <div class="creditEntryTitle"><h2><a href="http://apiwiki.twitter.com/">Twitter&trade; API</a></h2></div>
