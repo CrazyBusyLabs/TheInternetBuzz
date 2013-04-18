@@ -27,11 +27,13 @@
   </div>
 </div>
 <script>
-var $container = $('#tiles');
-$container.isotope({
-    itemSelector: '.tile',
-    masonry: {
-        columnWidth: 170
-    }
-});
+    var $container = $('#tiles');
+    $container.imagesLoaded(function(){
+        $container.isotope({
+            itemSelector: '.tile',
+            masonry: {
+                columnWidth: 170
+            }
+        });
+    });
 </script>
