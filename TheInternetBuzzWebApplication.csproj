@@ -428,9 +428,7 @@
     <Content Include="pages\theinternetbuzz\Credits.aspx" />
     <Content Include="pages\theinternetbuzz\TopBuzz.aspx" />
     <Content Include="pages\topic\Default.aspx" />
-    <Content Include="resources\affiliates.html" />
     <Content Include="resources\favicon.ico" />
-    <Content Include="resources\google76e64a3e403b34f8.html" />
     <Content Include="resources\images\backgrounds\bg.png" />
     <Content Include="resources\images\buttons\btn-search.png" />
     <Content Include="resources\images\buttons\btn-left.png" />
@@ -444,15 +442,53 @@
     <Content Include="resources\images\icons\wikipedia.png" />
     <Content Include="resources\images\logo.png" />
     <Content Include="resources\images\logo_thumb.jpg" />
+    <Content Include="resources\images\prettyPhoto\dark_rounded\btnNext.png" />
+    <Content Include="resources\images\prettyPhoto\dark_rounded\btnPrevious.png" />
+    <Content Include="resources\images\prettyPhoto\dark_rounded\contentPattern.png" />
+    <Content Include="resources\images\prettyPhoto\dark_rounded\default_thumbnail.gif" />
+    <Content Include="resources\images\prettyPhoto\dark_rounded\loader.gif" />
+    <Content Include="resources\images\prettyPhoto\dark_rounded\sprite.png" />
+    <Content Include="resources\images\prettyPhoto\dark_square\btnNext.png" />
+    <Content Include="resources\images\prettyPhoto\dark_square\btnPrevious.png" />
+    <Content Include="resources\images\prettyPhoto\dark_square\contentPattern.png" />
+    <Content Include="resources\images\prettyPhoto\dark_square\default_thumbnail.gif" />
+    <Content Include="resources\images\prettyPhoto\dark_square\loader.gif" />
+    <Content Include="resources\images\prettyPhoto\dark_square\sprite.png" />
+    <Content Include="resources\images\prettyPhoto\default\default_thumb.png" />
+    <Content Include="resources\images\prettyPhoto\default\loader.gif" />
+    <Content Include="resources\images\prettyPhoto\default\sprite.png" />
+    <Content Include="resources\images\prettyPhoto\default\sprite_next.png" />
+    <Content Include="resources\images\prettyPhoto\default\sprite_prev.png" />
+    <Content Include="resources\images\prettyPhoto\default\sprite_x.png" />
+    <Content Include="resources\images\prettyPhoto\default\sprite_y.png" />
+    <Content Include="resources\images\prettyPhoto\facebook\btnNext.png" />
+    <Content Include="resources\images\prettyPhoto\facebook\btnPrevious.png" />
+    <Content Include="resources\images\prettyPhoto\facebook\contentPatternBottom.png" />
+    <Content Include="resources\images\prettyPhoto\facebook\contentPatternLeft.png" />
+    <Content Include="resources\images\prettyPhoto\facebook\contentPatternRight.png" />
+    <Content Include="resources\images\prettyPhoto\facebook\contentPatternTop.png" />
+    <Content Include="resources\images\prettyPhoto\facebook\default_thumbnail.gif" />
+    <Content Include="resources\images\prettyPhoto\facebook\loader.gif" />
+    <Content Include="resources\images\prettyPhoto\facebook\sprite.png" />
+    <Content Include="resources\images\prettyPhoto\light_rounded\btnNext.png" />
+    <Content Include="resources\images\prettyPhoto\light_rounded\btnPrevious.png" />
+    <Content Include="resources\images\prettyPhoto\light_rounded\default_thumbnail.gif" />
+    <Content Include="resources\images\prettyPhoto\light_rounded\loader.gif" />
+    <Content Include="resources\images\prettyPhoto\light_rounded\sprite.png" />
+    <Content Include="resources\images\prettyPhoto\light_square\btnNext.png" />
+    <Content Include="resources\images\prettyPhoto\light_square\btnPrevious.png" />
+    <Content Include="resources\images\prettyPhoto\light_square\default_thumbnail.gif" />
+    <Content Include="resources\images\prettyPhoto\light_square\loader.gif" />
+    <Content Include="resources\images\prettyPhoto\light_square\sprite.png" />
     <Content Include="resources\javascript\jquery-1.9.0.min.js" />
     <Content Include="resources\javascript\jquery.imagesloaded.min.js" />
     <Content Include="resources\javascript\jquery.isotope.min.js" />
-    <Content Include="resources\javascript\slider.js" />
     <Content Include="resources\javascript\jquery.prettyPhoto.js" />
+    <Content Include="resources\javascript\slider.js" />
     <Content Include="pages\affiliates\Default.aspx" />
     <Content Include="pages\Default.aspx" />
-    <Content Include="resources\styles\prettyPhoto.css" />
     <Content Include="resources\robots.txt" />
+    <Content Include="resources\styles\prettyPhoto.css" />
     <Content Include="resources\styles\styles.css" />
     <Content Include="web.config">
       <SubType>Designer</SubType>
@@ -463,7 +499,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="logs\" />
-    <Folder Include="resources\images\prettyPhoto\dark_rounded\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

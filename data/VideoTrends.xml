@@ -49,6 +49,14 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
+    <ID>ROrpKx3aIjA</ID>
+    <Title>CAUGHT ON CAMERA: Fertilizer Plant Explosion Near Waco, Texas</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i.ytimg.com/vi/ROrpKx3aIjA/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
     <ID>qkM6RJf15cg</ID>
     <Title>Child Of The 90S | Internet Explorer</Title>
     <Provider>YouTube</Provider>
@@ -61,6 +69,14 @@
     <Title>Disney’s "Lion King" - In 3D!</Title>
     <Provider>YouTube</Provider>
     <ThumbnailImageURL>http://i.ytimg.com/vi/UmPmpUTr22c/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
+    <ID>XpaOjMXyJGk</ID>
+    <Title>Dove Real Beauty Sketches</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i.ytimg.com/vi/XpaOjMXyJGk/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
@@ -89,6 +105,14 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
+    <ID>MHKAmc9-Sf4</ID>
+    <Title>Estudios Y Colegio | Hola Soy German</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i.ytimg.com/vi/MHKAmc9-Sf4/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
     <ID>mE8qkh1UPCg</ID>
     <Title>Eu Odeio Dinosauros! - Minecraft Divino 14#</Title>
     <Provider>YouTube</Provider>
@@ -97,10 +121,10 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
-    <ID>VQGEOaA3JIs</ID>
-    <Title>Full Court Shot 1 Hop - Anna Olson - Lpwmv</Title>
+    <ID>046MuD1pYJg</ID>
+    <Title>Explosions At The Boston Marathon</Title>
     <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i.ytimg.com/vi/VQGEOaA3JIs/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageURL>http://i.ytimg.com/vi/046MuD1pYJg/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
@@ -109,30 +133,6 @@
     <Title>GOP Governors Increases Burden On Poor With Regressive Tax Plan</Title>
     <Provider>YouTube</Provider>
     <ThumbnailImageURL>http://i.ytimg.com/vi/HuUfNhKHFVg/default.jpg</ThumbnailImageURL>
-    <ThumbnailImageWidth>120</ThumbnailImageWidth>
-    <ThumbnailImageHeight>90</ThumbnailImageHeight>
-  </anyType>
-  <anyType xsi:type="VideoItem">
-    <ID>hGgr8ZbeNgQ</ID>
-    <Title>Harlem Shake (Black Edition)</Title>
-    <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i.ytimg.com/vi/hGgr8ZbeNgQ/default.jpg</ThumbnailImageURL>
-    <ThumbnailImageWidth>120</ThumbnailImageWidth>
-    <ThumbnailImageHeight>90</ThumbnailImageHeight>
-  </anyType>
-  <anyType xsi:type="VideoItem">
-    <ID>DABphlXEyW8</ID>
-    <Title>Harlem Shake (Matt And Kim Edition)</Title>
-    <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i.ytimg.com/vi/DABphlXEyW8/default.jpg</ThumbnailImageURL>
-    <ThumbnailImageWidth>120</ThumbnailImageWidth>
-    <ThumbnailImageHeight>90</ThumbnailImageHeight>
-  </anyType>
-  <anyType xsi:type="VideoItem">
-    <ID>6EsoWpTO2qg</ID>
-    <Title>Helicopter Crash Caught On Camera - Top Gear Korea - Top Gear</Title>
-    <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i.ytimg.com/vi/6EsoWpTO2qg/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
@@ -193,6 +193,14 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
+    <ID>T6DJcgm3wNY</ID>
+    <Title>Man Of Steel - Official Trailer 3 [HD]</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i.ytimg.com/vi/T6DJcgm3wNY/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
     <ID>jmyivyEjnX8</ID>
     <Title>Minecraft Mod Showcase : DOGGY TALENTS!</Title>
     <Provider>YouTube</Provider>
@@ -233,6 +241,14 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
+    <ID>5BBhNkywMJY</ID>
+    <Title>Patton Oswalt’s Star Wars Filibuster - Parks And Recreation</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i.ytimg.com/vi/5BBhNkywMJY/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
     <ID>A6XUVjK9W4o</ID>
     <Title>PEOPLE ARE AWESOME 2013</Title>
     <Provider>YouTube</Provider>
@@ -249,10 +265,10 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
-    <ID>JF8BRvqGCNs</ID>
-    <Title>Rihanna - Stay Ft Mikky Ekko</Title>
+    <ID>ASO_zypdnsQ</ID>
+    <Title>PSY - GENTLEMAN M/V</Title>
     <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i.ytimg.com/vi/JF8BRvqGCNs/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageURL>http://i.ytimg.com/vi/ASO_zypdnsQ/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
@@ -297,6 +313,14 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
+    <ID>jyPnQw_Lqds</ID>
+    <Title>The Hunger Games: Catching Fire - Exclusive Teaser Trailer</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i.ytimg.com/vi/jyPnQw_Lqds/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
     <ID>z5Otla5157c</ID>
     <Title>The Lonely Island - YOLO (Feat Adam Levine &amp; Kendrick Lamar)</Title>
     <Provider>YouTube</Provider>
@@ -325,14 +349,6 @@
     <Title>Turkish Airline Plane Engine Burning : Footage From The Inside</Title>
     <Provider>YouTube</Provider>
     <ThumbnailImageURL>http://i.ytimg.com/vi/mo4uJL0yDIg/default.jpg</ThumbnailImageURL>
-    <ThumbnailImageWidth>120</ThumbnailImageWidth>
-    <ThumbnailImageHeight>90</ThumbnailImageHeight>
-  </anyType>
-  <anyType xsi:type="VideoItem">
-    <ID>QkNrSpqUr-E</ID>
-    <Title>UGA Men’s Swim &amp; Dive Harlem Shake</Title>
-    <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i.ytimg.com/vi/QkNrSpqUr-E/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
