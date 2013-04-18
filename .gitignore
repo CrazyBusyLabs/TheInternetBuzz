@@ -1,6 +1,7 @@
 # Custom to TheInternetBuzz application
 Test*
-/data/*.xml
+bin\data\*.xml
+data\*.xml
 
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 ##[Bb]in/
