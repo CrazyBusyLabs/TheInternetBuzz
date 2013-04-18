@@ -40,6 +40,11 @@
 <div class="creditEntryURL"><a href="http://www.google.com/trends/">http://www.google.com/trends/</a></div>
 </div>
 <div class="creditEntry">
+<div class="creditEntryTitle"><h2><a href="http://isotope.metafizzy.co/">Isotope</a></h2></div>
+<div class="creditEntryContent">Isotope: An exquisite jQuery plugin for magical layouts.</div>
+<div class="creditEntryURL"><a href="http://isotope.metafizzy.co/">http://isotope.metafizzy.co/</a></div>
+</div>
+<div class="creditEntry">
 <div class="creditEntryTitle"><h2><a href="http://www.maxmind.com/">MaxMind</a></h2></div>
 <div class="creditEntryContent">MaxMind is an industry-leading provider of geolocation and online fraud detection tools. This product includes GeoLite data created by MaxMind, available from <a href="http://www.maxmind.com/">http://www.maxmind.com/</a>.</div>
 <div class="creditEntryURL"><a href="http://www.maxmind.com/">http://www.maxmind.com/</a></div>
