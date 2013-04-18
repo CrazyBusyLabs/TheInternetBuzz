@@ -14,10 +14,10 @@
 <meta property="fb:app_id" content="<%= FacebookAPIKey %>"/>
 <% if (IncludeJQueryScript) { %>
 <script type="text/javascript" src="<%= TheInternetBuzz.Web.URLBuilder.BuildResourceURL("javascript/jquery-1.9.0.min.js")%>"></script>
-<% if (IncludeMasonry)
+<% if (IncludeIsotope)
    { %>
-<script type="text/javascript" src="<%= TheInternetBuzz.Web.URLBuilder.BuildResourceURL("javascript/jquery.masonry.min.js")%>"></script>
 <script type="text/javascript" src="<%= TheInternetBuzz.Web.URLBuilder.BuildResourceURL("javascript/jquery.imagesloaded.min.js")%>"></script>
+<script type="text/javascript" src="<%= TheInternetBuzz.Web.URLBuilder.BuildResourceURL("javascript/jquery.isotope.min.js")%>"></script>
 <% } } %>
 <% if (IncludePrettyPhotoScript) { %>
 <link rel="stylesheet" type="text/css" href="<%= TheInternetBuzz.Web.URLBuilder.BuildResourceURL("styles/prettyPhoto.css")%>"/>

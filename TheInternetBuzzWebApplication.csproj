@@ -446,7 +446,7 @@
     <Content Include="resources\images\logo_thumb.jpg" />
     <Content Include="resources\javascript\jquery-1.9.0.min.js" />
     <Content Include="resources\javascript\jquery.imagesloaded.min.js" />
-    <Content Include="resources\javascript\jquery.masonry.min.js" />
+    <Content Include="resources\javascript\jquery.isotope.min.js" />
     <Content Include="resources\javascript\slider.js" />
     <Content Include="resources\javascript\jquery.prettyPhoto.js" />
     <Content Include="pages\affiliates\Default.aspx" />

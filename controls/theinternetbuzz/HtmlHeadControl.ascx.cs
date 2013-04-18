@@ -32,7 +32,7 @@ namespace TheInternetBuzz.Web.Controls
             set;
         }
 
-        public bool IncludeMasonry
+        public bool IncludeIsotope
         {
             get;
             set;

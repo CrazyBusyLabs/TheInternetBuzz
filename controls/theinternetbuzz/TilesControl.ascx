@@ -28,10 +28,10 @@
 </div>
 <script>
 var $container = $('#tiles');
-$container.imagesLoaded(function(){
-  $container.masonry({
-      itemSelector: '.tile',
-      columnWidth: 170
-  });
+$container.isotope({
+    itemSelector: '.tile',
+    masonry: {
+        columnWidth: 170
+    }
 });
 </script>

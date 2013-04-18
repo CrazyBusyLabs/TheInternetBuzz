@@ -6,7 +6,7 @@
 <theinternetbuzz:head runat="server" ID="htmlHead" Title="The Internet Buzz" 
     Description="TheInternetBuzz.com provides the current popular topics on the Internet. Stay in touch with what is happening in our world by using TheInternetBuzz.com." 
     Keywords="news, celebrities, movies, music, soccer, football, baseball, basketball, weather"
-    IncludePrettyPhotoScript="true" IncludeJQueryScript="true" IncludeMasonry="true" IncludeSliderScript="true" RobotIndexing="true"
+    IncludePrettyPhotoScript="true" IncludeJQueryScript="true" IncludeIsotope="true" IncludeSliderScript="true" RobotIndexing="true"
     IncludeGooglePlusOneScript="true" IncludeUserVoice="true"/>
 </head>
 <body>
