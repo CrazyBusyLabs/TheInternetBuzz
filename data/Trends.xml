@@ -19,15 +19,6 @@
     <Weight>3</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>AmandaPlatell</ID>
-    <Title>Amanda Platell</Title>
-    <ImageURL>http://farm3.staticflickr.com/2780/4468824579_5a013b0c81.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm3.staticflickr.com/2780/4468824579_5a013b0c81.jpg</TileImageURL>
-    <Provider>Twitter</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
     <ID>AmericanAirlines</ID>
     <Title>American Airlines</Title>
     <ImageURL>http://farm3.staticflickr.com/2539/3731996195_0523366112.jpg</ImageURL>
@@ -46,28 +37,44 @@
     <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>Argo</ID>
-    <Title>Argo</Title>
-    <ImageURL>http://a1740.phobos.apple.com/us/r1000/116/Video2/v4/bb/bc/21/bbbc2127-4311-5a9e-13b5-0f46ed6f6d6c/mza_6704039246375749288.170x170-75.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://a1740.phobos.apple.com/us/r1000/116/Video2/v4/bb/bc/21/bbbc2127-4311-5a9e-13b5-0f46ed6f6d6c/mza_6704039246375749288.170x170-75.jpg</TileImageURL>
-    <Provider>ITunes</Provider>
-    <Category>Movie</Category>
+    <ID>AnnCurrytortured</ID>
+    <Title>Ann Curry Tortured</Title>
+    <Provider>Alexa</Provider>
+    <Category>Unknown</Category>
     <Weight>1</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
+    <ID>Argi</ID>
+    <Title>Argi</Title>
+    <ImageURL>http://farm5.staticflickr.com/4125/4996696600_f2b0e0a1ae.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm5.staticflickr.com/4125/4996696600_f2b0e0a1ae.jpg</TileImageURL>
+    <Provider>Twitter</Provider>
+    <Category>Unknown</Category>
+    <Weight>1</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
+    <ID>BJUpton</ID>
+    <Title>BJ Upton</Title>
+    <ImageURL>http://farm5.staticflickr.com/4032/4530420001_9baa74f487.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm5.staticflickr.com/4032/4530420001_9baa74f487.jpg</TileImageURL>
+    <Provider>Twitter</Provider>
+    <Category>Unknown</Category>
+    <Weight>1</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
+    <ID>Bombsuspectimages</ID>
+    <Title>Bomb Suspect Images</Title>
+    <ImageURL>http://farm3.staticflickr.com/2508/4017086427_9cf77efae2.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm3.staticflickr.com/2508/4017086427_9cf77efae2.jpg</TileImageURL>
+    <Provider>Alexa</Provider>
+    <Category>Unknown</Category>
+    <Weight>3</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>BostonBombingSuspect</ID>
     <Title>Boston Bombing Suspect</Title>
     <ImageURL>http://farm9.staticflickr.com/8121/8658028343_0933e2b465.jpg</ImageURL>
     <TileImageURL>http://src.sencha.io/150/http://farm9.staticflickr.com/8121/8658028343_0933e2b465.jpg</TileImageURL>
-    <Provider>Google</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
-    <ID>BostonExplosion</ID>
-    <Title>Boston Explosion</Title>
-    <ImageURL>http://farm9.staticflickr.com/8120/8654630174_0049372b65.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm9.staticflickr.com/8120/8654630174_0049372b65.jpg</TileImageURL>
     <Provider>Google</Provider>
     <Category>Unknown</Category>
     <Weight>3</Weight>
@@ -79,7 +86,7 @@
     <TileImageURL>http://src.sencha.io/150/http://farm5.staticflickr.com/4110/4974162592_3757ab194f.jpg</TileImageURL>
     <Provider>Alexa</Provider>
     <Category>Unknown</Category>
-    <Weight>3</Weight>
+    <Weight>2</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>BrittneyGriner</ID>
@@ -100,31 +107,22 @@
     <Weight>3</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>Caribe</ID>
-    <Title>Caribe</Title>
-    <ImageURL>http://farm2.staticflickr.com/1349/567618150_6b5884408e.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm2.staticflickr.com/1349/567618150_6b5884408e.jpg</TileImageURL>
-    <Provider>Twitter</Provider>
+    <ID>CarlosArredondo</ID>
+    <Title>Carlos Arredondo</Title>
+    <ImageURL>http://farm1.staticflickr.com/156/371213892_1701a508eb.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm1.staticflickr.com/156/371213892_1701a508eb.jpg</TileImageURL>
+    <Provider>Google</Provider>
     <Category>Unknown</Category>
-    <Weight>1</Weight>
+    <Weight>3</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>Cassiano</ID>
-    <Title>Cassiano</Title>
-    <ImageURL>http://farm3.staticflickr.com/2338/2402518384_bcd089b625.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm3.staticflickr.com/2338/2402518384_bcd089b625.jpg</TileImageURL>
-    <Provider>Twitter</Provider>
+    <ID>Chicago</ID>
+    <Title>Chicago</Title>
+    <ImageURL>http://farm3.staticflickr.com/2436/4068926070_1f567b1383.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm3.staticflickr.com/2436/4068926070_1f567b1383.jpg</TileImageURL>
+    <Provider>Alexa</Provider>
     <Category>Unknown</Category>
-    <Weight>1</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
-    <ID>Chanel</ID>
-    <Title>Chanel</Title>
-    <ImageURL>http://farm4.staticflickr.com/3018/2937780489_b9d1f186a9.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm4.staticflickr.com/3018/2937780489_b9d1f186a9.jpg</TileImageURL>
-    <Provider>WhatTheTrend</Provider>
-    <Category>Unknown</Category>
-    <Weight>5</Weight>
+    <Weight>2</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>CISPA</ID>
@@ -134,15 +132,6 @@
     <Provider>Google</Provider>
     <Category>Unknown</Category>
     <Weight>2</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
-    <ID>CNN</ID>
-    <Title>CNN</Title>
-    <ImageURL>http://farm6.staticflickr.com/5085/5352754896_dc08f7f02f.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm6.staticflickr.com/5085/5352754896_dc08f7f02f.jpg</TileImageURL>
-    <Provider>Alexa</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>ColumbusDay</ID>
@@ -172,11 +161,20 @@
     <Weight>2</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
+    <ID>Desi</ID>
+    <Title>Desi</Title>
+    <ImageURL>http://farm5.staticflickr.com/4014/4444321632_cac1ab4f22.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm5.staticflickr.com/4014/4444321632_cac1ab4f22.jpg</TileImageURL>
+    <Provider>Twitter</Provider>
+    <Category>Unknown</Category>
+    <Weight>1</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
     <ID>DickVanDykedisorder</ID>
     <Title>Dick Van Dyke Disorder</Title>
     <Provider>Alexa</Provider>
     <Category>Unknown</Category>
-    <Weight>1</Weight>
+    <Weight>2</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>Django</ID>
@@ -206,24 +204,6 @@
     <Weight>5</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>fertilizerplantexplosion</ID>
-    <Title>Fertilizer Plant Explosion</Title>
-    <ImageURL>http://farm9.staticflickr.com/8108/8660110148_299356223e.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm9.staticflickr.com/8108/8660110148_299356223e.jpg</TileImageURL>
-    <Provider>Alexa</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
-    <ID>GeorgeSoros</ID>
-    <Title>George Soros</Title>
-    <ImageURL>http://farm2.staticflickr.com/1226/5163002042_716bc1966b.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm2.staticflickr.com/1226/5163002042_716bc1966b.jpg</TileImageURL>
-    <Provider>Twitter</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
     <ID>GoogleFiber</ID>
     <Title>Google Fiber</Title>
     <ImageURL>http://farm9.staticflickr.com/8016/7683284742_9cfb65b718.jpg</ImageURL>
@@ -231,15 +211,6 @@
     <Provider>Google</Provider>
     <Category>Unknown</Category>
     <Weight>2</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
-    <ID>GoogleMaps</ID>
-    <Title>Google Maps</Title>
-    <ImageURL>http://farm1.staticflickr.com/21/27860997_926e66c4bd.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm1.staticflickr.com/21/27860997_926e66c4bd.jpg</TileImageURL>
-    <Provider>Alexa</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>GucciMane</ID>
@@ -305,6 +276,15 @@
     <Weight>4</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
+    <ID>KrystleCampbell</ID>
+    <Title>Krystle Campbell</Title>
+    <ImageURL>http://farm5.staticflickr.com/4138/4859974811_9e85cef9fc.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm5.staticflickr.com/4138/4859974811_9e85cef9fc.jpg</TileImageURL>
+    <Provider>Google</Provider>
+    <Category>Unknown</Category>
+    <Weight>1</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
     <ID>LesMisrables2012</ID>
     <Title>Les Misérables (2012)</Title>
     <ImageURL>http://a1693.phobos.apple.com/us/r1000/097/Video2/v4/20/1a/35/201a35ee-eb72-6063-0e38-cfc34b3a001a/mza_7914037284017920334.170x170-75.jpg</ImageURL>
@@ -321,6 +301,15 @@
     <Provider>ITunes</Provider>
     <Category>Movie</Category>
     <Weight>2</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
+    <ID>Lima</ID>
+    <Title>Lima</Title>
+    <ImageURL>http://farm4.staticflickr.com/3663/3528354868_d16bf56f1d.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm4.staticflickr.com/3663/3528354868_d16bf56f1d.jpg</TileImageURL>
+    <Provider>Twitter</Provider>
+    <Category>Unknown</Category>
+    <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>Lincoln</ID>
@@ -359,15 +348,6 @@
     <Weight>3</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>MichaelHoward</ID>
-    <Title>Michael Howard</Title>
-    <ImageURL>http://farm5.staticflickr.com/4051/4385103469_861727935c.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm5.staticflickr.com/4051/4385103469_861727935c.jpg</TileImageURL>
-    <Provider>Twitter</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
     <ID>MSN</ID>
     <Title>MSN</Title>
     <ImageURL>http://farm4.staticflickr.com/3324/3302998540_d9b32ec3c3.jpg</ImageURL>
@@ -386,8 +366,8 @@
     <Weight>4</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>NBAplayoffs2013</ID>
-    <Title>NBA Playoffs 2013</Title>
+    <ID>NbaPlayoffs2013</ID>
+    <Title>Nba Playoffs 2013</Title>
     <ImageURL>http://farm6.staticflickr.com/5070/5625696268_4ba920b747.jpg</ImageURL>
     <TileImageURL>http://src.sencha.io/150/http://farm6.staticflickr.com/5070/5625696268_4ba920b747.jpg</TileImageURL>
     <Provider>Google</Provider>
@@ -395,13 +375,13 @@
     <Weight>2</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>NewYorkPost</ID>
-    <Title>New York Post</Title>
-    <ImageURL>http://farm1.staticflickr.com/105/281349331_1c1779122b.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm1.staticflickr.com/105/281349331_1c1779122b.jpg</TileImageURL>
-    <Provider>Google</Provider>
+    <ID>news</ID>
+    <Title>News</Title>
+    <ImageURL>http://farm5.staticflickr.com/4002/4627497417_b6b683ac2a.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm5.staticflickr.com/4002/4627497417_b6b683ac2a.jpg</TileImageURL>
+    <Provider>Alexa</Provider>
     <Category>Unknown</Category>
-    <Weight>2</Weight>
+    <Weight>3</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>NickMarkakis</ID>
@@ -420,31 +400,13 @@
     <Weight>5</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>Obama</ID>
-    <Title>Obama</Title>
-    <ImageURL>http://farm4.staticflickr.com/3144/2603263716_d4531365b1.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm4.staticflickr.com/3144/2603263716_d4531365b1.jpg</TileImageURL>
-    <Provider>Google</Provider>
-    <Category>Unknown</Category>
-    <Weight>2</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
-    <ID>OLLG</ID>
-    <Title>OLLG</Title>
-    <ImageURL>http://farm7.staticflickr.com/6092/6263779531_8bba28ee00.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm7.staticflickr.com/6092/6263779531_8bba28ee00.jpg</TileImageURL>
-    <Provider>WhatTheTrend</Provider>
-    <Category>Unknown</Category>
-    <Weight>5</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
     <ID>OutsideLands</ID>
     <Title>Outside Lands</Title>
     <ImageURL>http://farm7.staticflickr.com/6087/6122909240_af7995ff11.jpg</ImageURL>
     <TileImageURL>http://src.sencha.io/150/http://farm7.staticflickr.com/6087/6122909240_af7995ff11.jpg</TileImageURL>
     <Provider>Alexa</Provider>
     <Category>Unknown</Category>
-    <Weight>2</Weight>
+    <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>Pnk</ID>
@@ -474,6 +436,15 @@
     <Weight>3</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
+    <ID>Per</ID>
+    <Title>Perú</Title>
+    <ImageURL>http://farm1.staticflickr.com/91/262600074_827c67c650.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm1.staticflickr.com/91/262600074_827c67c650.jpg</TileImageURL>
+    <Provider>Twitter</Provider>
+    <Category>Unknown</Category>
+    <Weight>1</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
     <ID>PitchPerfect</ID>
     <Title>Pitch Perfect</Title>
     <ImageURL>http://a714.phobos.apple.com/us/r1000/119/Video/v4/e1/95/16/e19516a9-12a7-b3d8-f63b-67fd813ddbfa/0AA20_MLNA_pitchperfect_1400x2100.170x170-75.jpg</ImageURL>
@@ -481,6 +452,15 @@
     <Provider>ITunes</Provider>
     <Category>Movie</Category>
     <Weight>3</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
+    <ID>Reimer</ID>
+    <Title>Reimer</Title>
+    <ImageURL>http://farm3.staticflickr.com/2521/4038496802_956e7943b7.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm3.staticflickr.com/2521/4038496802_956e7943b7.jpg</TileImageURL>
+    <Provider>Twitter</Provider>
+    <Category>Unknown</Category>
+    <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>ricin</ID>
@@ -492,15 +472,6 @@
     <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>Samuca</ID>
-    <Title>Samuca</Title>
-    <ImageURL>http://farm1.staticflickr.com/16/22246292_bf006de445.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm1.staticflickr.com/16/22246292_bf006de445.jpg</TileImageURL>
-    <Provider>Twitter</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
     <ID>SelenaGomez</ID>
     <Title>Selena Gomez</Title>
     <ImageURL>http://a1686.phobos.apple.com/us/r1000/063/Music/v4/d1/a1/89/d1a189ad-ea7d-faac-edec-376c923c7916/UMG_cvrart_00050087293383_01_RGB72_1500x1500_13DMGIM03858.170x170-75.jpg</ImageURL>
@@ -508,6 +479,24 @@
     <Provider>ITunes</Provider>
     <Category>Music</Category>
     <Weight>2</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
+    <ID>SIDA</ID>
+    <Title>SIDA</Title>
+    <ImageURL>http://farm4.staticflickr.com/3160/2747217027_95e2557764.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm4.staticflickr.com/3160/2747217027_95e2557764.jpg</TileImageURL>
+    <Provider>WhatTheTrend</Provider>
+    <Category>Unknown</Category>
+    <Weight>5</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
+    <ID>SinCola</ID>
+    <Title>Sin Cola</Title>
+    <ImageURL>http://farm4.staticflickr.com/3210/2802430694_32387ee336.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm4.staticflickr.com/3210/2802430694_32387ee336.jpg</TileImageURL>
+    <Provider>Twitter</Provider>
+    <Category>Unknown</Category>
+    <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>TexasBombing</ID>
@@ -528,15 +517,6 @@
     <Weight>5</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>Thatcherite</ID>
-    <Title>Thatcherite</Title>
-    <ImageURL>http://farm1.staticflickr.com/91/217672453_382285ac8f.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm1.staticflickr.com/91/217672453_382285ac8f.jpg</TileImageURL>
-    <Provider>Twitter</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
     <ID>TheHobbitAnUnexpectedJourney</ID>
     <Title>The Hobbit: An Unexpected Journey</Title>
     <ImageURL>http://a1891.phobos.apple.com/us/r1000/100/Video/v4/24/93/e0/2493e096-97d0-e6b4-4eca-d1b069a7a518/mza_4646623078256410151.170x170-75.jpg</ImageURL>
@@ -555,10 +535,10 @@
     <Weight>5</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>TwilightEternalInMyHeart</ID>
-    <Title>Twilight Eternal In My Heart</Title>
-    <ImageURL>http://farm4.staticflickr.com/3220/2526937629_bbc582f8d7.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm4.staticflickr.com/3220/2526937629_bbc582f8d7.jpg</TileImageURL>
+    <ID>ThisIsUs</ID>
+    <Title>This Is Us</Title>
+    <ImageURL>http://farm9.staticflickr.com/8126/8659699379_1de9b4e237.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm9.staticflickr.com/8126/8659699379_1de9b4e237.jpg</TileImageURL>
     <Provider>Twitter</Provider>
     <Category>Unknown</Category>
     <Weight>1</Weight>
@@ -573,31 +553,22 @@
     <Weight>5</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>VRS</ID>
-    <Title>VRS</Title>
-    <ImageURL>http://farm8.staticflickr.com/7099/7218075576_25f78710e6.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm8.staticflickr.com/7099/7218075576_25f78710e6.jpg</TileImageURL>
-    <Provider>Twitter</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
     <ID>Walgreens</ID>
     <Title>Walgreens</Title>
     <ImageURL>http://farm3.staticflickr.com/2291/2198673708_5d047e7f1d.jpg</ImageURL>
     <TileImageURL>http://src.sencha.io/150/http://farm3.staticflickr.com/2291/2198673708_5d047e7f1d.jpg</TileImageURL>
     <Provider>Alexa</Provider>
     <Category>Unknown</Category>
-    <Weight>2</Weight>
+    <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>WeatherChannel</ID>
     <Title>Weather Channel</Title>
-    <ImageURL>http://farm4.staticflickr.com/3536/4083936028_4079310e7d.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm4.staticflickr.com/3536/4083936028_4079310e7d.jpg</TileImageURL>
+    <ImageURL>http://farm3.staticflickr.com/2556/4080704685_c8446704ef.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://farm3.staticflickr.com/2556/4080704685_c8446704ef.jpg</TileImageURL>
     <Provider>Alexa</Provider>
     <Category>Unknown</Category>
-    <Weight>3</Weight>
+    <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>WestTexas</ID>
@@ -609,15 +580,6 @@
     <Weight>5</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
-    <ID>WestTx</ID>
-    <Title>West, Tx</Title>
-    <ImageURL>http://farm7.staticflickr.com/6090/6160960236_6d0a3ecb62.jpg</ImageURL>
-    <TileImageURL>http://src.sencha.io/150/http://farm7.staticflickr.com/6090/6160960236_6d0a3ecb62.jpg</TileImageURL>
-    <Provider>Alexa</Provider>
-    <Category>Unknown</Category>
-    <Weight>1</Weight>
-  </anyType>
-  <anyType xsi:type="TrendItem">
     <ID>will.i.am</ID>
     <Title>William</Title>
     <ImageURL>http://a1.phobos.apple.com/us/r1000/098/Music/v4/27/c0/39/27c039be-2a46-e10d-d4e1-eae2c694f22e/UMG_cvrart_00602537378524_01_RGB72_1500x1500_13UMGIM30114.170x170-75.jpg</ImageURL>
@@ -625,6 +587,15 @@
     <Provider>ITunes</Provider>
     <Category>Music</Category>
     <Weight>3</Weight>
+  </anyType>
+  <anyType xsi:type="TrendItem">
+    <ID>Wreck-ItRalph</ID>
+    <Title>Wreck-It Ralph</Title>
+    <ImageURL>http://a738.phobos.apple.com/us/r1000/077/Video/v4/28/38/34/28383432-e589-f9f3-c804-6f3660655799/WreckItRalph_Disney_US_Apple.170x170-75.jpg</ImageURL>
+    <TileImageURL>http://src.sencha.io/150/http://a738.phobos.apple.com/us/r1000/077/Video/v4/28/38/34/28383432-e589-f9f3-c804-6f3660655799/WreckItRalph_Disney_US_Apple.170x170-75.jpg</TileImageURL>
+    <Provider>ITunes</Provider>
+    <Category>Movie</Category>
+    <Weight>1</Weight>
   </anyType>
   <anyType xsi:type="TrendItem">
     <ID>WTTtest</ID>
