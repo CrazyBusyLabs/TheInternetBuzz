@@ -34,17 +34,10 @@ namespace TheInternetBuzz.Providers.Wikipedia
                     isRedirect = false;
 
                     string url = "http://en.wikipedia.org/wiki/Special:Export/" + query;
-                    XPathDocument xpathdoc = XMLConnector.GetXPathDocument(url);
+                    XmlDocument xmlDocument = XMLConnector.GetXMLDocument(url);
 
-                    String NS = "http://www.mediawiki.org/xml/export-0.4/";
-                    XPathNavigator myXPathNavigator = xpathdoc.CreateNavigator();
-                    XPathNodeIterator nodesIt = myXPathNavigator.SelectDescendants("text", NS, false);
-
-                    string content = null;
-                    while (nodesIt.MoveNext())
-                    {
-                        content = content + nodesIt.Current.InnerXml;
-                    }
+                    XmlNodeList nodeList = xmlDocument.GetElementsByTagName("text");
+                    string content = nodeList[0].InnerText;
                     if (content != null && content.Length > 0)
                     {
                         // "#REDIRECT [[Dan Quayle]] {{R from other capitalisation}}"

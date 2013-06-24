@@ -126,6 +126,9 @@
     <Compile Include="code\TheInternetBuzz\Providers\Maxmind\DatabaseInfo.cs" />
     <Compile Include="code\TheInternetBuzz\Providers\Maxmind\LookupService.cs" />
     <Compile Include="code\TheInternetBuzz\Providers\Splunk\SplunkService.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Twitter\Data\TwitterCredentials.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Twitter\TwitterAuthParser.cs" />
+    <Compile Include="code\TheInternetBuzz\Providers\Twitter\TwitterAuthService.cs" />
     <Compile Include="code\TheInternetBuzz\Providers\Twitter\Test\TwitterSearchServiceTest.cs" />
     <Compile Include="code\TheInternetBuzz\Services\Cache\CacheCallback.cs" />
     <Compile Include="code\TheInternetBuzz\Services\Config\Test\ConfigServiceTest.cs" />
@@ -287,10 +290,6 @@
       <DependentUpon>VideoControl.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="controls\twitter\SearchWidgetControl.ascx.cs">
-      <DependentUpon>SearchWidgetControl.ascx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
     <Compile Include="controls\whatthetrend\ExplanationControl.ascx.cs">
       <DependentUpon>ExplanationControl.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -409,7 +408,6 @@
     <Content Include="controls\theinternetbuzz\TrackControl.ascx" />
     <Content Include="controls\theinternetbuzz\CloudControl.ascx" />
     <Content Include="controls\theinternetbuzz\VideoControl.ascx" />
-    <Content Include="controls\twitter\SearchWidgetControl.ascx" />
     <Content Include="controls\whatthetrend\ExplanationControl.ascx" />
     <Content Include="data\Categories.xml">
       <SubType>Designer</SubType>

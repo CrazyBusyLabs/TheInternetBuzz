@@ -28,7 +28,6 @@ namespace TheInternetBuzz.Web.Pages.Topic
         protected global::TheInternetBuzz.Web.Controls.SearchResultsControl webResultsHtml;
         protected global::TheInternetBuzz.Web.Controls.SearchResultsControl tweetsResultsHtml;
         protected global::TheInternetBuzz.Web.Controls.Amazon.MP3Control MP3Html;
-        protected global::TheInternetBuzz.Web.Controls.Twitter.SearchWidgetControl tweetsHtml;
         protected global::TheInternetBuzz.Web.Controls.FooterControl footerHtml;
         protected global::TheInternetBuzz.Web.Controls.TrackControl trackerHtml;
         protected global::TheInternetBuzz.Web.Controls.VideoControl videoHtml;
@@ -102,25 +101,22 @@ namespace TheInternetBuzz.Web.Pages.Topic
             tweetsResultsHtml.TrackSection = "topic";
             tweetsResultsHtml.TrackTopic = Query;
 
-            webResultsHtml.SearchCommand = new SearchCommand(SearchTypeEnum.Web, Query, 1, pageMax);
-            webResultsHtml.DisplayDate = false;
-            webResultsHtml.DisplaySource = true;
-            webResultsHtml.DisplayURL = true;
-            webResultsHtml.DisplayPagination = false; ;
-            webResultsHtml.TrackSection = "topic";
-            webResultsHtml.TrackTopic = Query;
+            //webResultsHtml.SearchCommand = new SearchCommand(SearchTypeEnum.Web, Query, 1, pageMax);
+            //webResultsHtml.DisplayDate = false;
+            //webResultsHtml.DisplaySource = true;
+            //webResultsHtml.DisplayURL = true;
+            //webResultsHtml.DisplayPagination = false; ;
+            //webResultsHtml.TrackSection = "topic";
+            //webResultsHtml.TrackTopic = Query;
 
-            newsResultsHtml.SearchCommand = new SearchCommand(SearchTypeEnum.News, Query, 1, pageMax);
-            newsResultsHtml.DisplayDate = true;
-            newsResultsHtml.DisplaySource = true;
-            newsResultsHtml.DisplayPagination = false; ;
-            newsResultsHtml.TrackSection = "topic";
-            newsResultsHtml.TrackTopic = Query;
+            //newsResultsHtml.SearchCommand = new SearchCommand(SearchTypeEnum.News, Query, 1, pageMax);
+            //newsResultsHtml.DisplayDate = true;
+            //newsResultsHtml.DisplaySource = true;
+            //newsResultsHtml.DisplayPagination = false; ;
+            //newsResultsHtml.TrackSection = "topic";
+            //newsResultsHtml.TrackTopic = Query;
 
             MP3Html.Query = Query;
-
-            tweetsHtml.WidgetSubject = Query;
-            tweetsHtml.WidgetQuery = Query;
 
             buzzListHtml.Title = "Buzzing Now";
             buzzListHtml.MaximumWeight = 5;

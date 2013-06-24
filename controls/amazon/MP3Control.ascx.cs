@@ -32,7 +32,13 @@ namespace TheInternetBuzz.Web.Controls.Amazon
                 "Maroon 5".Equals(Query, StringComparison.CurrentCultureIgnoreCase) ||
                 "Michael Bublé".Equals(Query, StringComparison.CurrentCultureIgnoreCase) ||
                 "Alicia Keys".Equals(Query, StringComparison.CurrentCultureIgnoreCase) ||
-                "Taylor Swift".Equals(Query, StringComparison.CurrentCultureIgnoreCase);
+                "Taylor Swift".Equals(Query, StringComparison.CurrentCultureIgnoreCase) ||
+                "Miley Cyrus".Equals(Query, StringComparison.CurrentCultureIgnoreCase) ||
+                "Imagine Dragons".Equals(Query, StringComparison.CurrentCultureIgnoreCase) ||
+                "Daft Punk".Equals(Query, StringComparison.CurrentCultureIgnoreCase) ||
+                "Florida Georgia Line".Equals(Query, StringComparison.CurrentCultureIgnoreCase) ||
+                "OneRepublic".Equals(Query, StringComparison.CurrentCultureIgnoreCase) ||
+                "Selena Gomez".Equals(Query, StringComparison.CurrentCultureIgnoreCase);
 
             this.Visible = isVisible;
         }

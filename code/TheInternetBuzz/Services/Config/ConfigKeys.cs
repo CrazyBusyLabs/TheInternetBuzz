@@ -42,6 +42,8 @@ namespace TheInternetBuzz.Services.Config
         public static string TWITTER_URL = "Twitter.URL";
         public static string TWITTER_VERSION = "Twitter.Version";
         public static string TWITTER_CURRENT_TRENDS_QUEUE_SIZE = "Twitter.CurrentTrends.Queue.Size";
+        public static string TWITTER_ACCESS_CONSUMER_KEY = "Twitter.Access.Consumer.Key";
+        public static string TWITTER_ACCESS_CONSUMER_SECRET = "Twitter.Access.Consumer.Secret";
         public static string YAHOO_API_KEY = "Yahoo.API.Key";
         public static string YOUTUBE_API_KEY = "YouTube.API.Key";
         public static string YOUTUBE_FEEDS_RECENTLYFEATURED_MAXRESULTS = "YouTube.Feeds.RecentlyFeatured.MaxResults";

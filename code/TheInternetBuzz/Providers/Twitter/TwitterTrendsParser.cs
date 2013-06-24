@@ -31,7 +31,7 @@ namespace TheInternetBuzz.Providers.Twitter
                         {
                             string name = trendJObject.Value<string>("name");
 
-                            if (name != null)
+                            if (name != null && !name.Contains("#"))
                             {
                                 TrendItem trendItem = new TrendItem(name, name, ProviderEnum.Twitter);
                                 trendItem.Weight = 1;

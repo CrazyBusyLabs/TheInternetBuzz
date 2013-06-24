@@ -62,6 +62,12 @@ namespace TheInternetBuzz.Web.Controls
             set;
         }
 
+        public bool IncludeTwitterScript
+        {
+            get;
+            set;
+        }
+
         public bool RobotIndexing
         {
             get;

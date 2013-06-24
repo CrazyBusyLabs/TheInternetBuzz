@@ -31,15 +31,15 @@ namespace TheInternetBuzz.Services.Topics
                     topicItem = new TopicItem(displayQuery, displayQuery);
                     topicItem.Query = displayQuery;
 
-                    ManualResetEvent[] doneEvents = new ManualResetEvent[2];
+                    ManualResetEvent[] doneEvents = new ManualResetEvent[1];
 
                     doneEvents[0] = new ManualResetEvent(false);
                     TopicWorkerThread wikipediaTopicWorkerThread = new TopicWorkerThread(ProviderEnum.Wikipedia, topicItem, doneEvents[0]);
                     ThreadPool.QueueUserWorkItem(wikipediaTopicWorkerThread.ThreadPoolCallback);
 
-                    doneEvents[1] = new ManualResetEvent(false);
-                    TopicWorkerThread freebaseTopicWorkerThread = new TopicWorkerThread(ProviderEnum.Freebase, topicItem, doneEvents[1]);
-                    ThreadPool.QueueUserWorkItem(freebaseTopicWorkerThread.ThreadPoolCallback);
+                    //doneEvents[0] = new ManualResetEvent(false);
+                    //TopicWorkerThread freebaseTopicWorkerThread = new TopicWorkerThread(ProviderEnum.Freebase, topicItem, doneEvents[1]);
+                    //ThreadPool.QueueUserWorkItem(freebaseTopicWorkerThread.ThreadPoolCallback);
 
                     WaitHandle.WaitAll(doneEvents);
 
