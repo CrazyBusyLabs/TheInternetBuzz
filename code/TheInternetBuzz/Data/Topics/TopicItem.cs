@@ -48,13 +48,13 @@ namespace TheInternetBuzz.Data.Topics
             set;
         }
 
-        public string FreebaseThumbnailURL
+        public string[] FreebaseAliases
         {
             get;
             set;
         }
 
-        public string FreebaseURL
+        public string FreebaseImageURL
         {
             get;
             set;

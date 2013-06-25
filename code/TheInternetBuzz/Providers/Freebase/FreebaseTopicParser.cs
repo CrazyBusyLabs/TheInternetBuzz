@@ -14,53 +14,107 @@ namespace TheInternetBuzz.Providers.Freebase
     {
         public void Parse(JObject topicJSONObject, TopicItem topicItem)
         {
-            JToken topicToken = topicJSONObject.First.First;
-            if (topicToken != null)
+            JObject propertyJObject = topicJSONObject.Value<JObject>("property");
+
+            if (propertyJObject != null) 
             {
-                JObject resultDataJObject = topicToken.Value<JObject>("result");
-                if (resultDataJObject != null)
+                foreach (JToken child in propertyJObject.Children())
                 {
-                    String description = resultDataJObject.Value<string>("description");
-                    topicItem.FreebaseSummary = description;
-
-                    String freebaseURL = resultDataJObject.Value<string>("url");
-                    topicItem.FreebaseURL = freebaseURL;
-
-                    String freebaseThumbnailURL = resultDataJObject.Value<string>("thumbnail");
-                    topicItem.FreebaseThumbnailURL = freebaseThumbnailURL;
-
-                    JArray webpageJArray = resultDataJObject.Value<JArray>("webpage");
-                    foreach (JObject webpageJObject in webpageJArray)
+                    var property = child as JProperty;
+                    if (property != null && property.Name != null)
                     {
-                        string text = webpageJObject.Value<string>("text");
-                        string url = webpageJObject.Value<string>("url");
-
-                        if (text != null)
+                        switch (property.Name)
                         {
-                            if ("Wikipedia".Equals(text))
-                            {
-                                topicItem.WikipediaURL = url;
-                            }
-                            else if ("Twitter Page".Equals(text))
-                            {
-                                topicItem.TwitterURL = url;
-                            }
-                            else if ("MySpace Page".Equals(text))
-                            {
-                                topicItem.MySpaceURL = url;
-                            }
-                            else if ("Facebook Page".Equals(text))
-                            {
-                                topicItem.FacebookURL = url;
-                            }
-                            else if ("Official Website".Equals(text))
-                            {
-                                topicItem.WebsiteURL = url;
-                            }
+                            case "/common/topic/description":
+                                ParseTopicDescription((JObject)property.Value, topicItem);
+                                break;
+                            case "/common/topic/image":
+                                ParseTopicImage((JObject)property.Value, topicItem);
+                                break;
+                            case "/common/topic/official_website":
+                                ParseTopicOfficialWebsite((JObject)property.Value, topicItem);
+                                break;
+                            case "/common/topic/social_media_presence":
+                                ParseTopicSocialMediaPresence((JObject)property.Value, topicItem);
+                                break;
+                            case "/common/topic/alias":
+                                ParseTopicAlias((JObject)property.Value, topicItem);
+                                break;
                         }
                     }
                 }
             }
         }
+
+        private void ParseTopicDescription(JObject descriptionJSONObject, TopicItem topicItem)
+        {
+            JArray valuesJArray = descriptionJSONObject.Value<JArray>("values");
+            if (valuesJArray != null && valuesJArray.Count > 0)
+            {
+                string description = valuesJArray[0].Value<string>("value");
+                topicItem.FreebaseSummary = description;
+            }
+        }
+
+        private void ParseTopicImage(JObject descriptionJSONObject, TopicItem topicItem)
+        {
+            JArray valuesJArray = descriptionJSONObject.Value<JArray>("values");
+            if (valuesJArray != null && valuesJArray.Count > 0)
+            {
+                string id = valuesJArray[0].Value<string>("id");
+                topicItem.FreebaseImageURL = "https://usercontent.googleapis.com/freebase/v1/image" + id;
+            }
+        }
+
+        private void ParseTopicOfficialWebsite(JObject descriptionJSONObject, TopicItem topicItem)
+        {
+            JArray valuesJArray = descriptionJSONObject.Value<JArray>("values");
+            if (valuesJArray != null && valuesJArray.Count > 0)
+            {
+                string description = valuesJArray[0].Value<string>("value");
+                topicItem.WebsiteURL = description;
+            }
+        }
+
+        private void ParseTopicSocialMediaPresence(JObject descriptionJSONObject, TopicItem topicItem)
+        {
+            JArray valuesJArray = descriptionJSONObject.Value<JArray>("values");
+            if (valuesJArray != null)
+            {
+                foreach (JObject valueJObject in valuesJArray)
+                {
+                    string value = valueJObject.Value<string>("value");
+                    if (value != null)
+                    {
+                        if (value.Contains("twitter")) topicItem.TwitterURL = value;
+                        else if (value.Contains("facebook")) topicItem.FacebookURL = value;
+                        else if (value.Contains("myspace")) topicItem.MySpaceURL = value;
+                    }
+                }
+            }
+        }
+        private void ParseTopicAlias(JObject descriptionJSONObject, TopicItem topicItem)
+        {
+            JArray valuesJArray = descriptionJSONObject.Value<JArray>("values");
+            if (valuesJArray != null)
+            {
+                topicItem.FreebaseAliases = new string[valuesJArray.Count];
+                int i = 0;
+                foreach (JObject valueJObject in valuesJArray)
+                {
+                    string value = valueJObject.Value<string>("value");
+                    topicItem.FreebaseAliases[i] = value;
+                    i++;
+                }
+            }
+        }
     }
 }
+
+
+
+
+
+
+
+

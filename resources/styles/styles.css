@@ -448,6 +448,11 @@ topic
 }
 .topicSummary {
 }
+.topicAliasesText {
+    margin-bottom:10px;
+	font-size:77%;
+	color:Gray;
+}
 .topicThumbmail {
     float:left;
     padding: 5px 15px 0px 0px;

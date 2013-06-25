@@ -27,8 +27,20 @@ namespace TheInternetBuzz.Providers.Freebase
             {
                 try
                 {
-                    string urlTemplate = "http://www.freebase.com/experimental/topic/standard?id=/en/{0}";
-                    string url = string.Format(urlTemplate, HttpUtility.UrlEncode(query));
+                    string urlTemplate = "https://www.googleapis.com/freebase/v1/topic/en/{0}?key={1}&{2}";
+                    string apiKey = ConfigService.GetConfig(ConfigKeys.GOOGLE_API_KEY, "");
+                    string[] domains = new string[] { 
+                                         "/common/topic/alias", 
+                                         "/common/topic/description", 
+                                         "/common/topic/image",
+                                         "/common/topic/official_website",
+                                         "/common/topic/social_media_presence",
+                                         "/influence/influence_node/influenced_by", 
+                                         "/people/person/date_of_birth"
+                    };
+                    string filters = "filter=" + String.Join("&filter=", domains);
+
+                    string url = string.Format(urlTemplate, HttpUtility.UrlEncode(query),apiKey,filters);
 
                     JSONConnector JSONConnector = new JSONConnector();
                     JObject searchResultsJSONObject = JSONConnector.GetJSONObject(url);

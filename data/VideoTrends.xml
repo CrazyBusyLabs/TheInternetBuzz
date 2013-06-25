@@ -9,6 +9,14 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
+    <ID>UXfIRHoJu-o</ID>
+    <Title>10 New Bets That You Will Always Win</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i1.ytimg.com/vi/UXfIRHoJu-o/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
     <ID>EJ8Y6n8rvC0</ID>
     <Title>2Pac’s 1St Time Listening To Lil Wayne!</Title>
     <Provider>YouTube</Provider>
@@ -41,6 +49,14 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
+    <ID>A6PEboTpcfI</ID>
+    <Title>Barack Obama Singing Get Lucky By Daft Punk (Ft Pharrell)</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i1.ytimg.com/vi/A6PEboTpcfI/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
     <ID>DaXsuHEhaAk</ID>
     <Title>Burj Khalifa Pinnacle Panorama - 360 Degree Image</Title>
     <Provider>YouTube</Provider>
@@ -57,18 +73,18 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
-    <ID>UmPmpUTr22c</ID>
-    <Title>Disney’s "Lion King" - In 3D!</Title>
+    <ID>0AuG9vig38I</ID>
+    <Title>Cooking With Sue - HT Use A Wire Cheese Slicer</Title>
     <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i.ytimg.com/vi/UmPmpUTr22c/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageURL>http://i1.ytimg.com/vi/0AuG9vig38I/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
-    <ID>n8l_6jFZxjA</ID>
-    <Title>Drake Denied Access To Heat Locker Room</Title>
+    <ID>UmPmpUTr22c</ID>
+    <Title>Disney’s "Lion King" - In 3D!</Title>
     <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i1.ytimg.com/vi/n8l_6jFZxjA/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageURL>http://i.ytimg.com/vi/UmPmpUTr22c/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
@@ -105,26 +121,10 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
-    <ID>qMUAo7VsUMM</ID>
-    <Title>Gaming With My Mom (Jimmy Fallon)</Title>
-    <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i1.ytimg.com/vi/qMUAo7VsUMM/default.jpg</ThumbnailImageURL>
-    <ThumbnailImageWidth>120</ThumbnailImageWidth>
-    <ThumbnailImageHeight>90</ThumbnailImageHeight>
-  </anyType>
-  <anyType xsi:type="VideoItem">
     <ID>HuUfNhKHFVg</ID>
     <Title>GOP Governors Increases Burden On Poor With Regressive Tax Plan</Title>
     <Provider>YouTube</Provider>
     <ThumbnailImageURL>http://i.ytimg.com/vi/HuUfNhKHFVg/default.jpg</ThumbnailImageURL>
-    <ThumbnailImageWidth>120</ThumbnailImageWidth>
-    <ThumbnailImageHeight>90</ThumbnailImageHeight>
-  </anyType>
-  <anyType xsi:type="VideoItem">
-    <ID>9UGpraQfLto</ID>
-    <Title>Huge Summer Giveaway!!!</Title>
-    <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i1.ytimg.com/vi/9UGpraQfLto/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
@@ -137,18 +137,18 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
-    <ID>yMSsf9szC2o</ID>
-    <Title>Jobs TRAILER 1 (2013) - Ashton Kutcher, Amanda Crew Movie HD</Title>
-    <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i1.ytimg.com/vi/yMSsf9szC2o/default.jpg</ThumbnailImageURL>
-    <ThumbnailImageWidth>120</ThumbnailImageWidth>
-    <ThumbnailImageHeight>90</ThumbnailImageHeight>
-  </anyType>
-  <anyType xsi:type="VideoItem">
     <ID>kffacxfA7G4</ID>
     <Title>Justin Bieber - Baby Ft Ludacris</Title>
     <Provider>YouTube</Provider>
     <ThumbnailImageURL>http://i.ytimg.com/vi/kffacxfA7G4/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
+    <ID>3oQEPB0Lus4</ID>
+    <Title>Kim Jung Gi : Awesome Demonstration Of Drawing!</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i1.ytimg.com/vi/3oQEPB0Lus4/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
@@ -169,10 +169,10 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
-    <ID>TVcJZQtQjJI</ID>
-    <Title>Lebron James &amp; Dwyane Wade Popping Bottles With Drake After Championship</Title>
+    <ID>aBu56Ybu5FI</ID>
+    <Title>Lebron Ducking Parade</Title>
     <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i1.ytimg.com/vi/TVcJZQtQjJI/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageURL>http://i1.ytimg.com/vi/aBu56Ybu5FI/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
@@ -201,6 +201,14 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
+    <ID>LrUvu1mlWco</ID>
+    <Title>Miley Cyrus - We Can’T Stop</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i1.ytimg.com/vi/LrUvu1mlWco/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
     <ID>jmyivyEjnX8</ID>
     <Title>Minecraft Mod Showcase : DOGGY TALENTS!</Title>
     <Provider>YouTube</Provider>
@@ -221,6 +229,14 @@
     <Title>Moment Of The Year In The Russian Basketball League!!! ))</Title>
     <Provider>YouTube</Provider>
     <ThumbnailImageURL>http://i.ytimg.com/vi/oFR4L6GegXA/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
+    <ID>v9rgOwH99nc</ID>
+    <Title>MUDA BRASIL - FAZ SENTIDO</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i1.ytimg.com/vi/v9rgOwH99nc/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
@@ -257,10 +273,10 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
-    <ID>Y-v6T4gUmkw</ID>
-    <Title>Sesame Street: James Gandolfini Talks About Feeling Scared</Title>
+    <ID>q0V8SsKoI4s</ID>
+    <Title>SOY EL PEOR NOVIO DEL MUNDO | Hola Soy German</Title>
     <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i1.ytimg.com/vi/Y-v6T4gUmkw/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageURL>http://i1.ytimg.com/vi/q0V8SsKoI4s/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
@@ -277,14 +293,6 @@
     <Title>Star Trek Into Darkness Trailer - Homemade Version: Shot-For-Shot</Title>
     <Provider>YouTube</Provider>
     <ThumbnailImageURL>http://i.ytimg.com/vi/qeHVNzZyaSE/default.jpg</ThumbnailImageURL>
-    <ThumbnailImageWidth>120</ThumbnailImageWidth>
-    <ThumbnailImageHeight>90</ThumbnailImageHeight>
-  </anyType>
-  <anyType xsi:type="VideoItem">
-    <ID>EkMbSKWZdl4</ID>
-    <Title>STOP COPYING ME!</Title>
-    <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i1.ytimg.com/vi/EkMbSKWZdl4/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
@@ -313,26 +321,18 @@
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>
   <anyType xsi:type="VideoItem">
-    <ID>uBh2LxTW0s0</ID>
-    <Title>The Effects Of DBS On The Motor Symptoms Of Parkinson’s Disease</Title>
-    <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i1.ytimg.com/vi/uBh2LxTW0s0/default.jpg</ThumbnailImageURL>
-    <ThumbnailImageWidth>120</ThumbnailImageWidth>
-    <ThumbnailImageHeight>90</ThumbnailImageHeight>
-  </anyType>
-  <anyType xsi:type="VideoItem">
-    <ID>0wLljngvrpw</ID>
-    <Title>The Last Of Us - Part 1 - Walkthrough / Playthrough / Let’s Play</Title>
-    <Provider>YouTube</Provider>
-    <ThumbnailImageURL>http://i1.ytimg.com/vi/0wLljngvrpw/default.jpg</ThumbnailImageURL>
-    <ThumbnailImageWidth>120</ThumbnailImageWidth>
-    <ThumbnailImageHeight>90</ThumbnailImageHeight>
-  </anyType>
-  <anyType xsi:type="VideoItem">
     <ID>z5Otla5157c</ID>
     <Title>The Lonely Island - YOLO (Feat Adam Levine &amp; Kendrick Lamar)</Title>
     <Provider>YouTube</Provider>
     <ThumbnailImageURL>http://i.ytimg.com/vi/z5Otla5157c/default.jpg</ThumbnailImageURL>
+    <ThumbnailImageWidth>120</ThumbnailImageWidth>
+    <ThumbnailImageHeight>90</ThumbnailImageHeight>
+  </anyType>
+  <anyType xsi:type="VideoItem">
+    <ID>KMGUmcveQeg</ID>
+    <Title>This Is 200 Calories</Title>
+    <Provider>YouTube</Provider>
+    <ThumbnailImageURL>http://i1.ytimg.com/vi/KMGUmcveQeg/default.jpg</ThumbnailImageURL>
     <ThumbnailImageWidth>120</ThumbnailImageWidth>
     <ThumbnailImageHeight>90</ThumbnailImageHeight>
   </anyType>

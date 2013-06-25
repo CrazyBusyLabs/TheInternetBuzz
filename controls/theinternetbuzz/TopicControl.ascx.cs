@@ -14,6 +14,7 @@ namespace TheInternetBuzz.Web.Controls
     public class TopicControl : AsyncUserControl
     {
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl freebaseHtml;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl topicAliasesHtml;
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl topicSummaryThumbmailHtml;
         protected global::System.Web.UI.HtmlControls.HtmlGenericControl wikipediaHtml;
 
@@ -62,7 +63,8 @@ namespace TheInternetBuzz.Web.Controls
         protected override bool isDisplayControl()
         {
             freebaseHtml.Visible = TopicItem != null && TopicItem.FreebaseSummary != null && TopicItem.FreebaseSummary.Length > 0;
-            topicSummaryThumbmailHtml.Visible = TopicItem != null && TopicItem.FreebaseThumbnailURL != null && TopicItem.FreebaseThumbnailURL.Length > 0;
+            topicSummaryThumbmailHtml.Visible = TopicItem != null && TopicItem.FreebaseImageURL != null && TopicItem.FreebaseImageURL.Length > 0;
+            topicAliasesHtml.Visible = TopicItem != null && TopicItem.FreebaseAliases != null && TopicItem.FreebaseAliases.Length > 0;
 
             if (freebaseHtml.Visible)
             {
@@ -81,10 +83,6 @@ namespace TheInternetBuzz.Web.Controls
             {
                 DisplayLink(TopicItem.FacebookURL, "images/icons/facebook.png", "Facebook");
             }
-            if (TopicItem.FreebaseURL != null && TopicItem.FreebaseURL.Length > 0)
-            {
-                DisplayLink(TopicItem.FreebaseURL, "images/icons/freebase.png", "Freebase");
-            }
             if (TopicItem.MySpaceURL != null && TopicItem.MySpaceURL.Length > 0)
             {
                 DisplayLink(TopicItem.MySpaceURL, "images/icons/myspace.png", "MySpace");
@@ -102,6 +100,11 @@ namespace TheInternetBuzz.Web.Controls
         private void DisplayLink(string url, string icon, string alt)
         {
             Response.Write("<a href=\"" + url + "\" onmousedown=\"trackEvent('" + TrackSection + "','click','" + HttpUtility.HtmlEncode(TrackTopic.Replace("'", @"\'")) + "');\"><img src=\"" + URLBuilder.BuildResourceURL(icon) + "\" alt=\"" + alt + "\"></a> ");
+        }
+
+        protected void DisplayAliases()
+        {
+            Response.Write(string.Join(", ", TopicItem.FreebaseAliases));
         }
     }
 }
