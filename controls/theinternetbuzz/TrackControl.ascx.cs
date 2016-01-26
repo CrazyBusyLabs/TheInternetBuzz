@@ -26,11 +26,5 @@ namespace TheInternetBuzz.Web.Controls
             get;
             set;
         }
-
-        public string TrackerValue
-        {
-            get;
-            set;
-        }
     }
 }

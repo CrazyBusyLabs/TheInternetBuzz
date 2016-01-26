@@ -7,7 +7,7 @@
     Description="TheInternetBuzz.com provides the current popular topics on the Internet. Stay in touch with what is happening in our world by using TheInternetBuzz.com." 
     Keywords="news, celebrities, movies, music, soccer, football, baseball, basketball, weather"
     IncludePrettyPhotoScript="true" IncludeJQueryScript="true" IncludeIsotope="true" IncludeSliderScript="true" RobotIndexing="true"
-    IncludeGooglePlusOneScript="true" IncludeUserVoice="true"/>
+    IncludeGooglePlusOneScript="true" IncludeUserVoice="true" IncludeTwitterScript="true"/>
 </head>
 <body>
 <theinternetbuzz:postbody runat="server" ID="postBodyHtml" IncludeFacebookSDKScript="true" />

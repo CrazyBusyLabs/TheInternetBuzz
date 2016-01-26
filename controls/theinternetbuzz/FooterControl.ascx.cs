@@ -12,16 +12,8 @@ namespace TheInternetBuzz.Web.Controls
 {
     public partial class FooterControl : UserControl
     {
-        public TheInternetBuzz.Data.Location.Location Location
-        {
-            get;
-            set;
-        }
-
         protected void Page_Load(object sender, EventArgs e)
         {
-            LocationService locationService = new LocationService();
-            Location = locationService.GetLocation();
         }
     }
 }

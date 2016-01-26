@@ -89,6 +89,9 @@ namespace TheInternetBuzz.Web.Pages.Topic
 
             explanationHtml.Query = Query;
             explanationHtml.DisplayQuery = HttpUtility.HtmlEncode(Query);
+            explanationHtml.TrackerCategory = "topic";
+            explanationHtml.TrackerAction = "comment";
+            explanationHtml.TrackerLabel = Query;
 
             int pageMax = ConfigService.GetConfig(ConfigKeys.THEINTERNETBUZZ_SEARCH_COUNT_PER_PAGE_PER_PROVIDER, 8);
 

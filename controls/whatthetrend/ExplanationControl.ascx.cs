@@ -35,12 +35,29 @@ namespace TheInternetBuzz.Web.Controls.WhatTheTrend
         {
             get;
             set;
+        }
 
+        public string TrackerCategory
+        {
+            get;
+            set;
+        }
+
+        public string TrackerAction
+        {
+            get;
+            set;
+        }
+
+        public string TrackerLabel
+        {
+            get;
+            set;
         }
         protected new void Page_Load(object sender, EventArgs e)
         {
             base.Page_Load(sender, e);
-            TopicURL = URLBuilder.BuildURL("topic", Query);
+            TopicURL = URLBuilder.BuildFullLiveURL("topic", Query);
         }
 
         protected override void LoadData()

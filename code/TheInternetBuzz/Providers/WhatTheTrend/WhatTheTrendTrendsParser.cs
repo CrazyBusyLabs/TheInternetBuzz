@@ -27,7 +27,7 @@ namespace TheInternetBuzz.Providers.WhatTheTrend
                     foreach (JObject trendJObject in trendsJArray)
                     {
                         string name = trendJObject.Value<string>("name");
-                        if (name != null && !name.Contains("#"))
+                        if (name != null && !name.Contains("#") && !name.Contains("WTT test") && !name.Contains("ttrtpt"))
                         {
                             JToken t;
                             trendJObject.TryGetValue("description", out t);

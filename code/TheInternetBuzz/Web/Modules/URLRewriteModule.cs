@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Web;
+using System.Text.RegularExpressions;
+
 using TheInternetBuzz.Services.Config;
 
 namespace TheInternetBuzz.Web.Modules
@@ -32,7 +34,11 @@ namespace TheInternetBuzz.Web.Modules
             {
                 // No special Processing
             }
-            else if (filepath.Contains("/resources") || filepath.Contains("/Trace.axd") || filepath.Contains("/CacheManager.axd"))
+            else if (filepath.Contains("/Trace.axd") || filepath.Contains("/CacheManager.axd"))
+            {
+                // No special Processing
+            }
+            else if (filepath.Contains("/resources"))
             {
                 // No special Processing
             }
@@ -79,13 +85,6 @@ namespace TheInternetBuzz.Web.Modules
                 if (token == null) return urlContext;
             }
 
-            // parse resources
-            if ("images".Equals(token) || "styles".Equals(token) || "javascript".Equals(token))
-            {
-                urlContext.Resource = BuildResource(token, tokenizer);
-                return urlContext;
-            }
-
             // parse section
             if (IsValidSection(token))
             {
@@ -126,16 +125,5 @@ namespace TheInternetBuzz.Web.Modules
                 "theinternetbuzz".Equals(token) || "topic".Equals(token); ;
         }
 
-        private string BuildResource(string token, URLPathTokenizer tokenizer)
-        {
-            string resource = "/resources";
-            while (token != null)
-            {
-                resource = resource + "/" + token;
-                token = tokenizer.nextToken();
-            }
-
-            return resource;
-        }
     }
 }
