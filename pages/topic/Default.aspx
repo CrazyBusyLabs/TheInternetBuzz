@@ -24,7 +24,6 @@
 <google:ads runat="server" AdsType="Box250x250" ID="googleAd1Html"/>
 <theinternetbuzz:buzzlist runat="server" ID="buzzListHtml"/>
 <google:ads runat="server" AdsType="Box160x600" ID="googleAd2Html"/>
-<sedo:tracker runat="server"  ID="sedoTrackerHtml"/>
 </div>
 <div class="clear"></div>
 <div class="one-columns-main">
