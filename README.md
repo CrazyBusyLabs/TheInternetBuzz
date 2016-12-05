@@ -1,6 +1,6 @@
 The Internet Buzz
 ---
-A ASP.net applicaiton to get the latest buzz words on the internet and trying to explain why they are buzzing.
+An ASP.net application to get the latest buzz words on the internet and trying to explain why these are buzzing.
 
 **CURRENTLY NOT CHANGING**
 
